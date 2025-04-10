@@ -64,6 +64,78 @@
     <Compile Include="FineForm.Designer.cs">
       <DependentUpon>FineForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormControl\AuthorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormControl\AuthorControl.Designer.cs">
+      <DependentUpon>AuthorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControl\BookControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormControl\BookControl.Designer.cs">
+      <DependentUpon>BookControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControl\Book_AuthorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormControl\Book_AuthorControl.Designer.cs">
+      <DependentUpon>Book_AuthorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControl\BorrowReturnBookControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormControl\BorrowReturnBookControl.Designer.cs">
+      <DependentUpon>BorrowReturnBookControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControl\CategoryControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormControl\CategoryControl.Designer.cs">
+      <DependentUpon>CategoryControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControl\DetailBorrowReturnBookControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormControl\DetailBorrowReturnBookControl.Designer.cs">
+      <DependentUpon>DetailBorrowReturnBookControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControl\HistoryBorrowControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormControl\HistoryBorrowControl.Designer.cs">
+      <DependentUpon>HistoryBorrowControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControl\PenaltyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormControl\PenaltyControl.Designer.cs">
+      <DependentUpon>PenaltyControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControl\PublisherControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormControl\PublisherControl.Designer.cs">
+      <DependentUpon>PublisherControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControl\ReaderControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormControl\ReaderControl.Designer.cs">
+      <DependentUpon>ReaderControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControl\StaffControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormControl\StaffControl.Designer.cs">
+      <DependentUpon>StaffControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControl\SupplierControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FormControl\SupplierControl.Designer.cs">
+      <DependentUpon>SupplierControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +168,42 @@
     <Compile Include="StatisticsForm.Designer.cs">
       <DependentUpon>StatisticsForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FormControl\AuthorControl.resx">
+      <DependentUpon>AuthorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControl\BookControl.resx">
+      <DependentUpon>BookControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControl\Book_AuthorControl.resx">
+      <DependentUpon>Book_AuthorControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControl\BorrowReturnBookControl.resx">
+      <DependentUpon>BorrowReturnBookControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControl\CategoryControl.resx">
+      <DependentUpon>CategoryControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControl\DetailBorrowReturnBookControl.resx">
+      <DependentUpon>DetailBorrowReturnBookControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControl\HistoryBorrowControl.resx">
+      <DependentUpon>HistoryBorrowControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControl\PenaltyControl.resx">
+      <DependentUpon>PenaltyControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControl\PublisherControl.resx">
+      <DependentUpon>PublisherControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControl\ReaderControl.resx">
+      <DependentUpon>ReaderControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControl\StaffControl.resx">
+      <DependentUpon>StaffControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControl\SupplierControl.resx">
+      <DependentUpon>SupplierControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -137,8 +245,6 @@
       <Name>DTOs</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="UserControl\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -16,7 +16,7 @@ namespace LibrarySystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ReaderForm());
+            Application.Run(new LoginForm());
         }
     }
 }
