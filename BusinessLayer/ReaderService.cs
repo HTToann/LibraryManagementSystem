@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DataLayer;
+﻿using DataLayer;
 using DTOs;
+using System.Collections.Generic;
 namespace BusinessLayer
 {
     public class ReaderService
@@ -19,7 +15,7 @@ namespace BusinessLayer
             return _repo.GetAllReaders();
         }
         // 2. Thêm bạn đọc mới
-        public bool AddReader(ReaderDTO reader)
+        public bool InsertReader(ReaderDTO reader)
         {
             if (string.IsNullOrWhiteSpace(reader.FirstName) || string.IsNullOrWhiteSpace(reader.LastName))
                 return false;
@@ -44,9 +40,13 @@ namespace BusinessLayer
         }
 
         // 5. Tìm kiếm bạn đọc theo tên
-        public List<ReaderDTO> FindReaders(string keyword)
+        public List<ReaderDTO> SearchReaderByName(string keyword)
         {
             return _repo.SearchByName(keyword);
+        }
+        public ReaderDTO SearchReaderById(int id)
+        {
+            return _repo.SearchById(id);
         }
     }
 }

@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\LibrarySystem"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\LibrarySystem\\LibrarySystem.sln",
   "PreviewInSolutionExplorer": false
 }

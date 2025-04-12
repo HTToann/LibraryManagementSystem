@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DTOs
+﻿namespace DTOs
 {
     public class BookDTO
     {
@@ -16,5 +10,9 @@ namespace DTOs
         public int CategoryID { get; set; }
         public int PublisherID { get; set; }
         public int SupplierID { get; set; }
+
+        public string CategoryName { get; set; }
+        public string PublisherName { get; set; }
+        public string SupplierName { get; set; }
     }
 }
