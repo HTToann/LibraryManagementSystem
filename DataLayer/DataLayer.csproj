@@ -41,6 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AuthorRepository.cs" />
+    <Compile Include="BookAuthorRepository.cs" />
+    <Compile Include="BookRepository.cs" />
+    <Compile Include="BorrowReturnBookRepository.cs" />
+    <Compile Include="CategoryRepository.cs" />
+    <Compile Include="DetailBorrowReturnBookRepository.cs" />
+    <Compile Include="HistoryBorrowRepository.cs" />
+    <Compile Include="PenaltyRepository.cs" />
+    <Compile Include="PublisherRepository.cs" />
+    <Compile Include="SupplierRepository.cs" />
     <Compile Include="ReaderRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserRepository.cs" />
