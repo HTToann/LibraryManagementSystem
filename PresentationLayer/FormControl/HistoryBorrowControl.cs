@@ -6,6 +6,7 @@ using BusinessLayer;
 using DTOs;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Guna.UI2.WinForms;
 
 =======
@@ -28,6 +29,10 @@ using Guna.UI2.WinForms;
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+using Guna.UI2.WinForms;
+
+>>>>>>> tomerge
 namespace LibrarySystem.FormControl
 {
     public partial class HistoryBorrowControl : UserControl
@@ -36,6 +41,7 @@ namespace LibrarySystem.FormControl
         private HistoryBorrowService _service = new HistoryBorrowService();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 
 =======
@@ -58,6 +64,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+        private Guna2DataGridView dgv = new Guna2DataGridView();
+
+>>>>>>> tomerge
         private int selectedID = -1;
 
         public HistoryBorrowControl()
@@ -72,6 +82,7 @@ namespace LibrarySystem.FormControl
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -84,6 +95,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         private void InitDataGridView()
         {
             // ❌ Không cho người dùng thao tác
@@ -165,6 +178,7 @@ namespace LibrarySystem.FormControl
             if (!this.Controls.Contains(dgv))
                 this.Controls.Add(dgv);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -211,6 +225,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         }
         private void ResetForm()
         {
@@ -249,6 +265,7 @@ namespace LibrarySystem.FormControl
             LoadData();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             InitDataGridView();
 =======
 <<<<<<< HEAD
@@ -270,6 +287,9 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+            InitDataGridView();
+>>>>>>> tomerge
             LoadComboboxs();
         }
 

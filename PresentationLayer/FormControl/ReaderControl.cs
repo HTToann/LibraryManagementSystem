@@ -2,6 +2,7 @@
 using DTOs;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Guna.UI2.WinForms;
 =======
 <<<<<<< HEAD
@@ -21,6 +22,9 @@ using Guna.UI2.WinForms;
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+using Guna.UI2.WinForms;
+>>>>>>> tomerge
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -33,6 +37,7 @@ namespace LibrarySystem.FormControl
         private int selectedReaderID = -1;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 =======
 <<<<<<< HEAD
@@ -52,11 +57,15 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+        private Guna2DataGridView dgv = new Guna2DataGridView();
+>>>>>>> tomerge
 
         public ReaderControl()
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -71,6 +80,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         private void InitDataGridView()
         {
             // ❌ Không cho người dùng thao tác
@@ -178,6 +189,7 @@ namespace LibrarySystem.FormControl
                 this.Controls.Add(dgv);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -193,6 +205,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
 
         private void LoadReaderData()
         {
@@ -204,6 +218,7 @@ namespace LibrarySystem.FormControl
         {
             cbGender.DataSource = new List<string> { "Male", "Female" };
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -218,6 +233,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         private bool ValidateForm()
         {
             if (string.IsNullOrWhiteSpace(txtFirstName.Text) ||
@@ -251,6 +268,7 @@ namespace LibrarySystem.FormControl
             txtGmail.Clear();
             txtAddress.Clear();
             txtPhone.Clear();
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -305,6 +323,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
             cbGender.SelectedIndex = 0;
             dptDate.Value = DateTime.Today;
             selectedReaderID = -1;
@@ -313,6 +333,7 @@ namespace LibrarySystem.FormControl
         private void ReaderControl_Load(object sender, EventArgs e)
         {
             LoadGenderCombobox();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             InitDataGridView();
@@ -336,6 +357,9 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+            InitDataGridView();
+>>>>>>> tomerge
             LoadReaderData();
             dptDate.Value = DateTime.Today;
 
@@ -343,6 +367,7 @@ namespace LibrarySystem.FormControl
 
         private void btInsert_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             if (!ValidateForm()) return;
@@ -389,6 +414,9 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+            if (!ValidateForm()) return;
+>>>>>>> tomerge
             var reader = new ReaderDTO
             {
                 FirstName = txtFirstName.Text,
@@ -419,6 +447,7 @@ namespace LibrarySystem.FormControl
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!ValidateForm()) return;
 =======
 <<<<<<< HEAD
@@ -440,6 +469,9 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+            if (!ValidateForm()) return;
+>>>>>>> tomerge
             var reader = new ReaderDTO
             {
                 ReaderID = selectedReaderID,

@@ -52,6 +52,7 @@
     <Compile Include="PublisherRepository.cs" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="StatsRepository.cs" />
 =======
 <<<<<<< HEAD
@@ -71,6 +72,9 @@
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+    <Compile Include="StatsRepository.cs" />
+>>>>>>> tomerge
     <Compile Include="SupplierRepository.cs" />
     <Compile Include="ReaderRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

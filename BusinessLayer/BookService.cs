@@ -37,6 +37,7 @@ namespace BusinessLayer
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -49,6 +50,8 @@ namespace BusinessLayer
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         public void DecreaseStock(int bookId, int count)
         {
             _repo.DecreaseStock(bookId, count);
@@ -57,6 +60,7 @@ namespace BusinessLayer
         {
             _repo.IncreaseStock(bookId, count);
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -73,5 +77,7 @@ namespace BusinessLayer
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
     }
 }

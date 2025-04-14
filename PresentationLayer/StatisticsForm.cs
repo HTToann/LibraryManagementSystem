@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -12,6 +13,8 @@
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
 ﻿// UI hiện đại bằng Guna.UI2 + Chart Control
 
 using System;
@@ -21,6 +24,7 @@ using System.Windows.Forms.DataVisualization.Charting;
 using Guna.UI2.WinForms;
 using BusinessLayer;
 using DTOs;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -39,11 +43,14 @@ using DTOs;
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
 
 namespace LibrarySystem
 {
     public partial class StatisticsForm : Form
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -58,6 +65,8 @@ namespace LibrarySystem
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         private StatsService _statsService = new StatsService();
 
         private Guna2Panel menuPanel;
@@ -271,6 +280,7 @@ namespace LibrarySystem
                 }
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -292,6 +302,8 @@ namespace LibrarySystem
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         }
     }
 }

@@ -155,6 +155,7 @@ namespace DataLayer
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -167,6 +168,8 @@ namespace DataLayer
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         public ReaderDTO FindByGmailOrPhone(string gmail, string phone)
         {
             using (SqlConnection conn = new SqlConnection(DbHelper.ConnectionString))
@@ -203,6 +206,7 @@ namespace DataLayer
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -218,5 +222,7 @@ namespace DataLayer
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
     }
 }

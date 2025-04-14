@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -12,6 +13,8 @@
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
 ﻿// ModernMainForm.cs - Cải tiến giao diện theo thiết kế hiện đại với Guna2 + icon
 using System;
 using System.Drawing;
@@ -24,6 +27,7 @@ using FontAwesome.Sharp; // Thêm thư viện FontAwesome.WinForms (qua NuGet)
 using BusinessLayer.Gmail;
 using DTOs;
 using System.Collections.Generic;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -48,11 +52,14 @@ using System.Windows.Forms;
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
 
 namespace LibrarySystem
 {
     public partial class MainForm : Form
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -67,6 +74,8 @@ namespace LibrarySystem
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         private Guna2GradientPanel panelSidebar;
         private FlowLayoutPanel sidebarFlow;
         private Guna2Panel panelHeader;
@@ -233,6 +242,7 @@ namespace LibrarySystem
             headerLayout.Controls.Add(userInfoPanel, 2, 0);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -317,12 +327,15 @@ namespace LibrarySystem
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
             panelMain = new Panel
             {
                 Dock = DockStyle.Fill,
                 BackColor = Color.White
             };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -337,6 +350,8 @@ namespace LibrarySystem
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
             this.Controls.Add(panelMain);
             this.Controls.Add(panelSidebar);
             this.Controls.Add(panelHeader);
@@ -408,6 +423,7 @@ namespace LibrarySystem
             ContextMenuStrip menu = new ContextMenuStrip();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             menu.Items.Add("Change Account", null, (s, ev) => Logout());
             menu.Items.Add("Exit", null, (s, ev) => Application.Exit());
 =======
@@ -420,6 +436,10 @@ namespace LibrarySystem
             menu.Items.Add("Change Password", null, (s, ev) => MessageBox.Show("Go to password change screen."));
             menu.Items.Add("Logout", null, (s, ev) => Logout());
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+            menu.Items.Add("Change Account", null, (s, ev) => Logout());
+            menu.Items.Add("Exit", null, (s, ev) => Application.Exit());
+>>>>>>> tomerge
             menu.Show(avatar, new Point(0, avatar.Height));
         }
         private void SendReminder()
@@ -461,6 +481,7 @@ namespace LibrarySystem
             statsForm.StartPosition = FormStartPosition.CenterScreen;
             statsForm.Size = new Size(1600, 1000); // hoặc theo kích thước mong muốn
             statsForm.ShowDialog(this); // ✅ dùng ShowDialog để focus
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -578,6 +599,8 @@ namespace LibrarySystem
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         }
     }
 }

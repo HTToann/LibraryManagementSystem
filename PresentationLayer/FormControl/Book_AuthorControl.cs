@@ -6,6 +6,7 @@ using BusinessLayer;
 using DTOs;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Guna.UI2.WinForms;
 
 =======
@@ -28,6 +29,10 @@ using Guna.UI2.WinForms;
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+using Guna.UI2.WinForms;
+
+>>>>>>> tomerge
 namespace LibrarySystem.FormControl
 {
     public partial class Book_AuthorControl : UserControl
@@ -37,6 +42,7 @@ namespace LibrarySystem.FormControl
         private AuthorService _authorService = new AuthorService();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 
 =======
@@ -59,12 +65,17 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+        private Guna2DataGridView dgv = new Guna2DataGridView();
+
+>>>>>>> tomerge
 
         private int selectedBookAuthorID = -1;
         public Book_AuthorControl()
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -79,6 +90,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         private void InitDataGridView()
         {
             // ❌ Không cho người dùng thao tác
@@ -167,6 +180,7 @@ namespace LibrarySystem.FormControl
                 this.Controls.Add(dgv);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -182,6 +196,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         private void LoadData()
         {
             dgv.DataSource = null;
@@ -203,6 +219,7 @@ namespace LibrarySystem.FormControl
             cbBook.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             cbBook.AutoCompleteSource = AutoCompleteSource.ListItems;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       
@@ -255,6 +272,9 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+      
+>>>>>>> tomerge
         private void ResetForm()
         {
         }
@@ -262,6 +282,7 @@ namespace LibrarySystem.FormControl
         private void Book_AuthorControl_Load(object sender, EventArgs e)
         {
             LoadComboBoxes();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             InitDataGridView();
@@ -285,6 +306,9 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+            InitDataGridView();
+>>>>>>> tomerge
             LoadData();
         }
 

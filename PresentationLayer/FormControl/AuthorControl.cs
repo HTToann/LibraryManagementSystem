@@ -6,6 +6,7 @@ using BusinessLayer;
 using DTOs;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Guna.UI2.WinForms;
 
 =======
@@ -28,6 +29,10 @@ using Guna.UI2.WinForms;
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+using Guna.UI2.WinForms;
+
+>>>>>>> tomerge
 namespace LibrarySystem.FormControl
 {
     public partial class AuthorControl : UserControl
@@ -35,6 +40,7 @@ namespace LibrarySystem.FormControl
         private AuthorService _service = new AuthorService();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 
 =======
@@ -57,6 +63,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+        private Guna2DataGridView dgv = new Guna2DataGridView();
+
+>>>>>>> tomerge
         private int selectedAuthorID = -1;
         public AuthorControl()
         {
@@ -71,6 +81,7 @@ namespace LibrarySystem.FormControl
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -83,6 +94,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         private void InitDataGridView()
         {
             // ❌ Không cho người dùng thao tác
@@ -164,6 +177,7 @@ namespace LibrarySystem.FormControl
             if (!this.Controls.Contains(dgv))
                 this.Controls.Add(dgv);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -209,6 +223,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         }
         private void ResetForm()
         {
@@ -219,6 +235,7 @@ namespace LibrarySystem.FormControl
 
         private void AuthorControl_Load(object sender, EventArgs e)
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             InitDataGridView();
@@ -242,6 +259,9 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+            InitDataGridView();
+>>>>>>> tomerge
             LoadData();
         }
 
@@ -259,6 +279,7 @@ namespace LibrarySystem.FormControl
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -271,6 +292,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         private bool ValidateForm()
         {
             if (string.IsNullOrWhiteSpace(txtFirstName.Text) ||
@@ -282,6 +305,7 @@ namespace LibrarySystem.FormControl
 
             return true;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -298,10 +322,13 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
 
         private void btInsert_Click(object sender, EventArgs e)
         {
             // Kiểm tra rỗng
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             if (!ValidateForm())
@@ -335,6 +362,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+            if (!ValidateForm())
+                return;
+>>>>>>> tomerge
 
             var author = new AuthorDTO
             {
@@ -367,6 +398,7 @@ namespace LibrarySystem.FormControl
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!ValidateForm())
                 return;
 =======
@@ -389,6 +421,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+            if (!ValidateForm())
+                return;
+>>>>>>> tomerge
 
             var author = new AuthorDTO
             {

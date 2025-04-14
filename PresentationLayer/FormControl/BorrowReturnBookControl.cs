@@ -6,6 +6,7 @@ using BusinessLayer;
 using DTOs;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Guna.UI2.WinForms;
 
 =======
@@ -28,6 +29,10 @@ using Guna.UI2.WinForms;
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+using Guna.UI2.WinForms;
+
+>>>>>>> tomerge
 namespace LibrarySystem.FormControl
 {
     public partial class BorrowReturnBookControl : UserControl
@@ -37,6 +42,7 @@ namespace LibrarySystem.FormControl
         private ReaderService __readerService = new ReaderService();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 
 =======
@@ -59,11 +65,16 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+        private Guna2DataGridView dgv = new Guna2DataGridView();
+
+>>>>>>> tomerge
         private int selectedID = -1;
         public BorrowReturnBookControl()
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -78,6 +89,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         private void InitDataGridView()
         {
             // ❌ Không cho người dùng thao tác
@@ -183,6 +196,7 @@ namespace LibrarySystem.FormControl
                 this.Controls.Add(dgv);
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -200,6 +214,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         private void LoadData()
         {
             dgv.DataSource = null;
@@ -226,6 +242,7 @@ namespace LibrarySystem.FormControl
             cbStatus.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             cbStatus.AutoCompleteSource = AutoCompleteSource.ListItems;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     
@@ -278,6 +295,9 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+    
+>>>>>>> tomerge
         private void ResetForm()
         {
 
@@ -326,6 +346,7 @@ namespace LibrarySystem.FormControl
             LoadComboboxs();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             InitDataGridView();
 =======
 <<<<<<< HEAD
@@ -347,6 +368,9 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+            InitDataGridView();
+>>>>>>> tomerge
         }
 
         private void btUpdate_Click(object sender, EventArgs e)

@@ -6,6 +6,7 @@ using BusinessLayer;
 using DTOs;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Guna.UI2.WinForms;
 
 =======
@@ -28,6 +29,10 @@ using Guna.UI2.WinForms;
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+using Guna.UI2.WinForms;
+
+>>>>>>> tomerge
 namespace LibrarySystem.FormControl
 {
     public partial class BookControl : UserControl
@@ -38,6 +43,7 @@ namespace LibrarySystem.FormControl
         private SupplierService _supplierService = new SupplierService();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 
 =======
@@ -60,11 +66,16 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+        private Guna2DataGridView dgv = new Guna2DataGridView();
+
+>>>>>>> tomerge
 
         private int selectedBookID = -1;
         public BookControl()
         {
             InitializeComponent();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -79,6 +90,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
 
         }
         private void InitDataGridView()
@@ -185,6 +198,7 @@ namespace LibrarySystem.FormControl
             if (!this.Controls.Contains(dgv))
                 this.Controls.Add(dgv);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -200,6 +214,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         }
         private void LoadData()
         {
@@ -228,6 +244,7 @@ namespace LibrarySystem.FormControl
             cbSupplier.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             cbSupplier.AutoCompleteSource = AutoCompleteSource.ListItems;
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -277,6 +294,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         private void ResetForm()
         {
             txtCodeBook.Text = "";
@@ -287,6 +306,7 @@ namespace LibrarySystem.FormControl
         private void BookControl_Load(object sender, System.EventArgs e)
         {
             LoadComboBoxes();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             InitDataGridView();
@@ -310,6 +330,9 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+            InitDataGridView();
+>>>>>>> tomerge
             LoadData();
         }
         private void dgv_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -332,6 +355,7 @@ namespace LibrarySystem.FormControl
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -344,6 +368,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         private bool ValidateForm()
         {
             if (string.IsNullOrWhiteSpace(txtCodeBook.Text) ||
@@ -362,6 +388,7 @@ namespace LibrarySystem.FormControl
             // Kiểm tra rỗng
             if (!ValidateForm())
                 return;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -393,6 +420,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
 
             var book = new BookDTO
             {
@@ -423,6 +452,7 @@ namespace LibrarySystem.FormControl
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             // Kiểm tra rỗng
             if (!ValidateForm())
                 return;
@@ -448,6 +478,11 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+            // Kiểm tra rỗng
+            if (!ValidateForm())
+                return;
+>>>>>>> tomerge
 
             var book = new BookDTO
             {

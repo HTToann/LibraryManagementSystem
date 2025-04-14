@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿// Optimized and validated version of StaffControl.cs
 using BusinessLayer;
 =======
@@ -24,6 +25,10 @@ using BusinessLayer;
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+﻿// Optimized and validated version of StaffControl.cs
+using BusinessLayer;
+>>>>>>> tomerge
 using DTOs;
 using System;
 using System.Collections.Generic;
@@ -31,6 +36,7 @@ using System.Drawing;
 using System.Windows.Forms;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Guna.UI2.WinForms;
 
 =======
@@ -53,6 +59,10 @@ using Guna.UI2.WinForms;
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+using Guna.UI2.WinForms;
+
+>>>>>>> tomerge
 namespace LibrarySystem.FormControl
 {
     public partial class StaffControl : UserControl
@@ -61,6 +71,7 @@ namespace LibrarySystem.FormControl
         private int selectedUserID = -1;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -73,6 +84,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         private Guna2DataGridView dgvUsers = new Guna2DataGridView();
 
         public StaffControl()
@@ -161,16 +174,22 @@ namespace LibrarySystem.FormControl
             {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> tomerge
                 HeaderText = "Password",
                 Name = "Password",
                 DataPropertyName = "Password"
             });
             dgv.Columns.Add(new DataGridViewTextBoxColumn
             {
+<<<<<<< HEAD
 =======
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
                 HeaderText = "Gmail",
                 Name = "Gmail",
                 DataPropertyName = "Gmail"
@@ -207,6 +226,7 @@ namespace LibrarySystem.FormControl
             LoadUsersData();
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -259,12 +279,15 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         private void LoadUsersData()
         {
             dgvUsers.DataSource = null;
             dgvUsers.AutoGenerateColumns = false;
             dgvUsers.DataSource = _service.GetAllUsers();
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -286,12 +309,16 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+
+>>>>>>> tomerge
         private void LoadRolesCombobox()
         {
             cbRole.DataSource = _service.GellAllRoles();
             cbRole.DisplayMember = "RoleName";
             cbRole.ValueMember = "RoleId";
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -306,6 +333,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
 
         private void ResetForm()
         {
@@ -316,6 +345,7 @@ namespace LibrarySystem.FormControl
             txtGmail.Clear();
             txtAddress.Clear();
             txtPhone.Clear();
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -344,10 +374,13 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
             cbRole.SelectedIndex = 0;
             selectedUserID = -1;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -362,6 +395,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         private bool ValidateInput(out string message, bool isInsert = true)
         {
             message = "";
@@ -369,6 +404,7 @@ namespace LibrarySystem.FormControl
                 string.IsNullOrWhiteSpace(txtLastName.Text) ||
                 string.IsNullOrWhiteSpace(txtUsername.Text) ||
                 (isInsert && string.IsNullOrWhiteSpace(txtPassword.Text)) ||
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -403,10 +439,13 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
                 string.IsNullOrWhiteSpace(txtGmail.Text) ||
                 string.IsNullOrWhiteSpace(txtAddress.Text) ||
                 string.IsNullOrWhiteSpace(txtPhone.Text))
             {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -421,6 +460,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
                 message = "Please fill in all required fields.";
                 return false;
             }
@@ -453,6 +494,7 @@ namespace LibrarySystem.FormControl
                 return;
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -492,6 +534,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
             var user = new UserDTO
             {
                 FirstName = txtFirstName.Text,
@@ -505,6 +549,7 @@ namespace LibrarySystem.FormControl
             };
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -524,10 +569,14 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+
+>>>>>>> tomerge
             if (_service.Register(user))
             {
                 MessageBox.Show("User has been added successfully!");
                 LoadUsersData();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -542,12 +591,15 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
                 ResetForm();
             }
             else
             {
                 MessageBox.Show("Failed! Username already exists.");
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -571,6 +623,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         }
 
         private void btUpdate_Click(object sender, EventArgs e)
@@ -583,6 +637,7 @@ namespace LibrarySystem.FormControl
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -595,12 +650,15 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
             if (!ValidateInput(out string message, false))
             {
                 MessageBox.Show(message);
                 return;
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -617,6 +675,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
             var user = new UserDTO
             {
                 UserID = selectedUserID,
@@ -624,9 +684,13 @@ namespace LibrarySystem.FormControl
                 LastName = txtLastName.Text,
                 Username = txtUsername.Text,
 <<<<<<< HEAD
+<<<<<<< HEAD
                 Password= txtPassword.Text,
 =======
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+                Password= txtPassword.Text,
+>>>>>>> tomerge
                 Gmail = txtGmail.Text,
                 Address = txtAddress.Text,
                 Phone = txtPhone.Text,
@@ -634,6 +698,7 @@ namespace LibrarySystem.FormControl
             };
 
             var success = _service.UpdateUser(user);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -648,10 +713,13 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
             MessageBox.Show(success ? "Updated successfully!" : "Update failed.");
             LoadUsersData();
             ResetForm();
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -676,6 +744,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
 
         private void btDelete_Click(object sender, EventArgs e)
         {
@@ -689,6 +759,7 @@ namespace LibrarySystem.FormControl
             if (confirm == DialogResult.Yes)
             {
                 var success = _service.DeleteUser(selectedUserID);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 MessageBox.Show(success ? "Delete successful" : "Delete failed");
@@ -712,6 +783,9 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+                MessageBox.Show(success ? "Delete successful" : "Delete failed");
+>>>>>>> tomerge
                 LoadUsersData();
                 ResetForm();
             }
@@ -729,6 +803,9 @@ namespace LibrarySystem.FormControl
                 DataGridViewRow row = dgvUsers.Rows[e.RowIndex];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> tomerge
                 txtFirstName.Text = row.Cells["FirstName"].Value.ToString();
                 txtLastName.Text = row.Cells["LastName"].Value.ToString();
                 txtUsername.Text = row.Cells["Username"].Value.ToString();
@@ -736,6 +813,7 @@ namespace LibrarySystem.FormControl
                 txtGmail.Text = row.Cells["Gmail"].Value.ToString();
                 txtAddress.Text = row.Cells["Address"].Value.ToString();
                 txtPhone.Text = row.Cells["Phone"].Value.ToString();
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -765,6 +843,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
                 cbRole.Text = row.Cells["RoleName"].Value.ToString();
                 selectedUserID = Convert.ToInt32(row.Cells["UserID"].Value);
             }
@@ -774,6 +854,7 @@ namespace LibrarySystem.FormControl
         {
             string keyword = tbKw.Text.Trim();
             if (string.IsNullOrEmpty(keyword))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -802,10 +883,13 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
             {
                 MessageBox.Show("Keyword cannot be empty!");
                 return;
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -820,12 +904,15 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
 
             dgvUsers.DataSource = null;
 
             if (rdID.Checked)
             {
                 if (!int.TryParse(keyword, out int userId))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -848,6 +935,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
                 {
                     MessageBox.Show("User ID must be a number!");
                     return;
@@ -861,6 +950,7 @@ namespace LibrarySystem.FormControl
                 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -883,12 +973,15 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
                 dgvUsers.DataSource = new List<UserDTO> { user };
             }
             else if (rdName.Checked)
             {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 var user = _service.GetUserByUsername(keyword);
 =======
 <<<<<<< HEAD
@@ -910,6 +1003,9 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+                var user = _service.GetUserByUsername(keyword);
+>>>>>>> tomerge
                 if (user == null)
                 {
                     MessageBox.Show("User not found!");
@@ -917,6 +1013,7 @@ namespace LibrarySystem.FormControl
                 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -937,6 +1034,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
                 dgvUsers.DataSource = new List<UserDTO> { user };
             }
             else
@@ -944,6 +1043,7 @@ namespace LibrarySystem.FormControl
                 MessageBox.Show("Please select search type: ID or Username.");
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -956,11 +1056,14 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
                 return;
             }
 
             tbKw.Clear();
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -983,5 +1086,7 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
     }
 }

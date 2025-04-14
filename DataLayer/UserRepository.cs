@@ -17,6 +17,7 @@ namespace DataLayer
                             JOIN UserRole r ON u.roleID = r.roleID
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             WHERE u.username=@username COLLATE SQL_Latin1_General_CP1_CS_AS" // Xóa Collate để không còn phân biệt chữ hoa và thường nữa
 =======
 <<<<<<< HEAD
@@ -38,6 +39,9 @@ namespace DataLayer
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+                            WHERE u.username=@username COLLATE SQL_Latin1_General_CP1_CS_AS" // Xóa Collate để không còn phân biệt chữ hoa và thường nữa
+>>>>>>> tomerge
                 ;
                 var cmd = new SqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@username", username);
@@ -54,6 +58,7 @@ namespace DataLayer
                             Username = reader["username"].ToString(),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             Password=reader["password"].ToString(),
 =======
 <<<<<<< HEAD
@@ -73,11 +78,15 @@ namespace DataLayer
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+                            Password=reader["password"].ToString(),
+>>>>>>> tomerge
                             Gmail = reader["gmail"].ToString(),
                             Address = reader["address"].ToString(),
                             Phone = reader["phone"].ToString(),
                             RoleID = (int)reader["roleID"],
                             RoleName = reader["roleName"].ToString() // 👉 lấy tên vai trò
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -92,6 +101,8 @@ namespace DataLayer
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
                         };
                     }
                 }
@@ -129,6 +140,7 @@ namespace DataLayer
                             RoleID = (int)reader["roleID"],
                             RoleName = reader["roleName"].ToString() // 👉 lấy tên vai trò
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -144,6 +156,8 @@ namespace DataLayer
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
                         };
                     }
                 }
@@ -227,9 +241,13 @@ namespace DataLayer
                             LastName = reader["lastName"].ToString(),
                             Username = reader["username"].ToString(),
 <<<<<<< HEAD
+<<<<<<< HEAD
                             Password=reader["password"].ToString(),
 =======
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+                            Password=reader["password"].ToString(),
+>>>>>>> tomerge
                             Gmail = reader["gmail"].ToString(),
                             Address = reader["address"].ToString(),
                             Phone = reader["phone"].ToString(),
@@ -273,25 +291,35 @@ namespace DataLayer
                             lastName=@lastName,
                             username=@username,
 <<<<<<< HEAD
+<<<<<<< HEAD
                             password=@password,
 =======
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+                            password=@password,
+>>>>>>> tomerge
                             gmail=@gmail,
                             address=@address,
                             phone=@phone,
                             roleID=@roleID
                         WHERE userID=@userID", conn);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> tomerge
                 string hashPassword = HashPasswordHelper.HashPassword(user.Password);
                 cmd.Parameters.AddWithValue("@firstName", user.FirstName);
                 cmd.Parameters.AddWithValue("@lastName", user.LastName);
                 cmd.Parameters.AddWithValue("@username", user.Username);
                 cmd.Parameters.AddWithValue("@password", hashPassword);
+<<<<<<< HEAD
 =======
                 cmd.Parameters.AddWithValue("@firstName", user.FirstName);
                 cmd.Parameters.AddWithValue("@lastName", user.LastName);
                 cmd.Parameters.AddWithValue("@username", user.Username);
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> tomerge
                 cmd.Parameters.AddWithValue("@gmail", user.Gmail);
                 cmd.Parameters.AddWithValue("@address", user.Address);
                 cmd.Parameters.AddWithValue("@phone", user.Phone);

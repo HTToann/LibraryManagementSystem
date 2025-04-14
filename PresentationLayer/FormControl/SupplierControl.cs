@@ -6,6 +6,7 @@ using BusinessLayer;
 using DTOs;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Guna.UI2.WinForms;
 
 =======
@@ -28,6 +29,10 @@ using Guna.UI2.WinForms;
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+using Guna.UI2.WinForms;
+
+>>>>>>> tomerge
 namespace LibrarySystem.FormControl
 {
     public partial class SupplierControl : UserControl
@@ -36,6 +41,7 @@ namespace LibrarySystem.FormControl
         private int selectedSupplierID = -1;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 =======
 <<<<<<< HEAD
@@ -55,10 +61,14 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+        private Guna2DataGridView dgv = new Guna2DataGridView();
+>>>>>>> tomerge
         public SupplierControl()
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -73,6 +83,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         private void InitDataGridView()
         {
             // ❌ Không cho người dùng thao tác
@@ -161,6 +173,7 @@ namespace LibrarySystem.FormControl
         }
       
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -207,6 +220,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
         private void LoadData()
         {
             dgv.DataSource = null;
@@ -215,6 +230,7 @@ namespace LibrarySystem.FormControl
         }
         private void ResetForm()
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -229,6 +245,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
             txtName.Clear();
             txtGmail.Clear();
             txtAddress.Clear();
@@ -239,6 +257,7 @@ namespace LibrarySystem.FormControl
         {
             message = "";
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -267,11 +286,14 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
             if (string.IsNullOrWhiteSpace(txtName.Text) ||
                 string.IsNullOrWhiteSpace(txtGmail.Text) ||
                 string.IsNullOrWhiteSpace(txtAddress.Text) ||
                 string.IsNullOrWhiteSpace(txtPhone.Text))
             {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -286,6 +308,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
                 message = "Please fill in all required fields.";
                 return false;
             }
@@ -309,6 +333,7 @@ namespace LibrarySystem.FormControl
             if (!ValidateInput(out string message))
             {
                 MessageBox.Show(message);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -342,6 +367,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
                 return;
             }
             var supplier = new SupplierDTO
@@ -366,6 +393,7 @@ namespace LibrarySystem.FormControl
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             InitDataGridView();
 =======
 <<<<<<< HEAD
@@ -387,6 +415,9 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+            InitDataGridView();
+>>>>>>> tomerge
             LoadData();
         }
 
@@ -400,6 +431,7 @@ namespace LibrarySystem.FormControl
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -412,11 +444,14 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
             if (!ValidateInput(out string message))
             {
                 MessageBox.Show(message);
                 return;
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -433,6 +468,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
             var supplier = new SupplierDTO
             {
                 SupplierID = selectedSupplierID,
@@ -456,6 +493,7 @@ namespace LibrarySystem.FormControl
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 txtName.Text = row.Cells["Namee"].Value.ToString();
 =======
 <<<<<<< HEAD
@@ -477,6 +515,9 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+                txtName.Text = row.Cells["Namee"].Value.ToString();
+>>>>>>> tomerge
                 txtGmail.Text = row.Cells["Gmail"].Value.ToString();
                 txtAddress.Text = row.Cells["Address"].Value.ToString();
                 txtPhone.Text = row.Cells["Phone"].Value.ToString();
@@ -513,6 +554,7 @@ namespace LibrarySystem.FormControl
         {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             string keyword = tbKw.Text.Trim();
             if (string.IsNullOrWhiteSpace(keyword))
 =======
@@ -537,12 +579,17 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+            string keyword = tbKw.Text.Trim();
+            if (string.IsNullOrWhiteSpace(keyword))
+>>>>>>> tomerge
             {
                 MessageBox.Show("Keyword cannot be empty!");
                 return;
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -555,10 +602,13 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
             dgv.DataSource = null;
             if (rdID.Checked)
             {
                 if (!int.TryParse(keyword, out int supplierId))
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -581,6 +631,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
                 {
                     MessageBox.Show("Supplier ID must be a number!");
                     return;
@@ -588,6 +640,7 @@ namespace LibrarySystem.FormControl
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 var supplier = _service.GetSupplierById(supplierId);
 =======
 <<<<<<< HEAD
@@ -609,6 +662,9 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+                var supplier = _service.GetSupplierById(supplierId);
+>>>>>>> tomerge
                 if (supplier == null)
                 {
                     MessageBox.Show("Supplier not found!");
@@ -618,6 +674,7 @@ namespace LibrarySystem.FormControl
                 tbKw.Text = "";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -636,6 +693,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
                 dgv.DataSource = new List<SupplierDTO> { supplier };
             }
             else if (rdName.Checked)
@@ -643,6 +702,7 @@ namespace LibrarySystem.FormControl
                 var supplier = _service.GetSupplierByName(tbKw.Text);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (supplier == null )
 =======
 <<<<<<< HEAD
@@ -664,12 +724,16 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+                if (supplier == null )
+>>>>>>> tomerge
                 {
                     MessageBox.Show("Supplier not found!");
                     return;
                 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -690,6 +754,8 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+>>>>>>> tomerge
                 dgv.DataSource = supplier;
             }
             else
@@ -698,6 +764,7 @@ namespace LibrarySystem.FormControl
             }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             tbKw.Clear();
 =======
 <<<<<<< HEAD
@@ -717,6 +784,9 @@ namespace LibrarySystem.FormControl
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
 =======
 >>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
+            tbKw.Clear();
+>>>>>>> tomerge
         }
     }
     }
