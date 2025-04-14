@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DTOs;
-using System.Data.SqlClient;
+﻿using DTOs;
 using Shared;
+using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
 namespace DataLayer
 {
     public class ReaderRepository
@@ -30,9 +27,9 @@ namespace DataLayer
                         DateOfBirth = reader["dateOfBirth"] == DBNull.Value ? DateTime.MinValue : Convert.ToDateTime(reader["dateOfBirth"]),
                         Gmail = reader["gmail"].ToString(),
                         Address = reader["address"].ToString(),
-                        Phone = reader["phone"].ToString(),                      
+                        Phone = reader["phone"].ToString(),
                         CreatedDate = reader["created_date"] == DBNull.Value ? DateTime.MinValue : Convert.ToDateTime(reader["created_date"])
-                    }) ;
+                    });
                 }
             }
             return list;
@@ -122,11 +119,74 @@ namespace DataLayer
                         Gmail = reader["gmail"].ToString(),
                         Address = reader["address"].ToString(),
                         Phone = reader["phone"].ToString(),
-                        CreatedDate = Convert.ToDateTime(reader["created_date"])
+                        //CreatedDate = Convert.ToDateTime(reader["created_date"])
                     });
                 }
             }
             return list;
         }
+        public ReaderDTO SearchById(int id)
+        {
+            using (SqlConnection conn = new SqlConnection(DbHelper.ConnectionString))
+            {
+                string query = "SELECT * FROM Reader WHERE readerId=@id";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@id", id);
+                conn.Open();
+                var reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    return new ReaderDTO
+                    {
+                        ReaderID = (int)reader["readerID"],
+                        FirstName = reader["firstName"].ToString(),
+                        LastName = reader["lastName"].ToString(),
+                        Gender = reader["gender"].ToString(),
+                        DateOfBirth = Convert.ToDateTime(reader["dateOfBirth"]),
+                        Gmail = reader["gmail"].ToString(),
+                        Address = reader["address"].ToString(),
+                        Phone = reader["phone"].ToString(),
+                        //CreatedDate = Convert.ToDateTime(reader["created_date"])
+
+                    };
+                }
+            }
+            return null;
+        }
+        public ReaderDTO FindByGmailOrPhone(string gmail, string phone)
+        {
+            using (SqlConnection conn = new SqlConnection(DbHelper.ConnectionString))
+            {
+                string query = @"
+            SELECT TOP 1 *
+            FROM Reader
+            WHERE (@Gmail IS NULL OR gmail = @Gmail)
+               OR (@Phone IS NULL OR phone = @Phone)";
+
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@Gmail", string.IsNullOrEmpty(gmail) ? (object)DBNull.Value : gmail);
+                cmd.Parameters.AddWithValue("@Phone", string.IsNullOrEmpty(phone) ? (object)DBNull.Value : phone);
+
+                conn.Open();
+                var reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    return new ReaderDTO
+                    {
+                        ReaderID = (int)reader["readerID"],
+                        FirstName = reader["firstName"].ToString(),
+                        LastName = reader["lastName"].ToString(),
+                        Gender = reader["gender"].ToString(),
+                        DateOfBirth = Convert.ToDateTime(reader["dateOfBirth"]),
+                        Phone = reader["phone"].ToString(),
+                        Gmail = reader["gmail"].ToString(),
+                        Address = reader["address"].ToString(),
+
+                    };
+                }
+            }
+            return null;
+        }
+
     }
 }
