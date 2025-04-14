@@ -1,6 +1,13 @@
 ﻿using BusinessLayer;
 using DTOs;
+<<<<<<< HEAD
 using Guna.UI2.WinForms;
+=======
+<<<<<<< HEAD
+using Guna.UI2.WinForms;
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -11,12 +18,23 @@ namespace LibrarySystem.FormControl
     {
         private ReaderService _service = new ReaderService();
         private int selectedReaderID = -1;
+<<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
+=======
+<<<<<<< HEAD
+        private Guna2DataGridView dgv = new Guna2DataGridView();
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 
         public ReaderControl()
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
         private void InitDataGridView()
         {
             // ❌ Không cho người dùng thao tác
@@ -123,6 +141,11 @@ namespace LibrarySystem.FormControl
             if (!this.Controls.Contains(dgv))
                 this.Controls.Add(dgv);
         }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 
         private void LoadReaderData()
         {
@@ -134,6 +157,10 @@ namespace LibrarySystem.FormControl
         {
             cbGender.DataSource = new List<string> { "Male", "Female" };
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
         private bool ValidateForm()
         {
             if (string.IsNullOrWhiteSpace(txtFirstName.Text) ||
@@ -167,6 +194,46 @@ namespace LibrarySystem.FormControl
             txtGmail.Clear();
             txtAddress.Clear();
             txtPhone.Clear();
+<<<<<<< HEAD
+=======
+=======
+        private void BeautyDGV()
+        {
+            // Không cho người dùng chỉnh cột
+            dgv.AllowUserToResizeColumns = false;
+            dgv.AllowUserToResizeRows = false;
+            // Không cho thêm dòng mới
+            dgv.AllowUserToAddRows = false;
+            // Tự động resize
+            dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgv.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            // Chỉnh header đẹp
+            dgv.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 10, FontStyle.Bold);
+            dgv.ColumnHeadersDefaultCellStyle.BackColor = Color.LightSteelBlue;
+            dgv.ColumnHeadersDefaultCellStyle.ForeColor = Color.Black;
+            dgv.EnableHeadersVisualStyles = false;
+
+            // Chỉnh cell
+            dgv.DefaultCellStyle.Font = new Font("Segoe UI", 10);
+            dgv.DefaultCellStyle.ForeColor = Color.Black;
+            dgv.DefaultCellStyle.BackColor = Color.White;
+            dgv.DefaultCellStyle.SelectionBackColor = Color.LightSkyBlue;
+            dgv.DefaultCellStyle.SelectionForeColor = Color.Black;
+
+            // Canh giữa cho header
+            dgv.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            // Canh lề trái cho cell
+            dgv.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
+        }
+        private void ResetForm()
+        {
+            txtFirstName.Text = "";
+            txtLastName.Text = "";
+            txtGmail.Text = "";
+            txtAddress.Text = "";
+            txtPhone.Text = "";
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
             cbGender.SelectedIndex = 0;
             dptDate.Value = DateTime.Today;
             selectedReaderID = -1;
@@ -175,7 +242,15 @@ namespace LibrarySystem.FormControl
         private void ReaderControl_Load(object sender, EventArgs e)
         {
             LoadGenderCombobox();
+<<<<<<< HEAD
             InitDataGridView();
+=======
+<<<<<<< HEAD
+            InitDataGridView();
+=======
+            BeautyDGV();
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
             LoadReaderData();
             dptDate.Value = DateTime.Today;
 
@@ -183,7 +258,36 @@ namespace LibrarySystem.FormControl
 
         private void btInsert_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (!ValidateForm()) return;
+=======
+<<<<<<< HEAD
+            if (!ValidateForm()) return;
+=======
+            // Kiểm tra rỗng
+            if (string.IsNullOrWhiteSpace(txtFirstName.Text) ||
+                string.IsNullOrWhiteSpace(txtLastName.Text) ||
+                string.IsNullOrWhiteSpace(txtGmail.Text) ||
+                string.IsNullOrWhiteSpace(txtAddress.Text) ||
+                string.IsNullOrWhiteSpace(txtPhone.Text))
+            {
+                MessageBox.Show("Please fill in all required fields.");
+                return;
+            }
+            // Kiểm tra email hợp lệ (rất cơ bản)
+            if (!txtGmail.Text.Contains("@") || !txtGmail.Text.Contains("."))
+            {
+                MessageBox.Show("Invalid email format.");
+                return;
+            }
+            // Kiểm tra số điện thoại là số và có độ dài hợp lý (VD: 9-11 số)
+            if (!System.Text.RegularExpressions.Regex.IsMatch(txtPhone.Text, @"^\d{9,11}$"))
+            {
+                MessageBox.Show("Phone number must be numeric and 9 to 11 digits long.");
+                return;
+            }
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
             var reader = new ReaderDTO
             {
                 FirstName = txtFirstName.Text,
@@ -212,7 +316,15 @@ namespace LibrarySystem.FormControl
                 MessageBox.Show("Please select a reader to update!");
                 return;
             }
+<<<<<<< HEAD
             if (!ValidateForm()) return;
+=======
+<<<<<<< HEAD
+            if (!ValidateForm()) return;
+=======
+
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
             var reader = new ReaderDTO
             {
                 ReaderID = selectedReaderID,

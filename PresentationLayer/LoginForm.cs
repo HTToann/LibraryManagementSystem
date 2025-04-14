@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 ﻿using BusinessLayer;
 using System.Windows.Forms;
 
@@ -44,6 +48,20 @@ namespace LibrarySystem
             {
                 btDangNhap.PerformClick(); // Gọi sự kiện click của nút Đăng Nhập
             }
+<<<<<<< HEAD
+=======
+=======
+﻿using System.Windows.Forms;
+
+namespace LibrarySystem
+{
+    public partial class LoginForm : Form
+    {
+        public LoginForm()
+        {
+            InitializeComponent();
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
         }
     }
 }

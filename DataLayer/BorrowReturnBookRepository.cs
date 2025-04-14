@@ -199,6 +199,10 @@ namespace DataLayer
             }
             return list;
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
         public int InsertAndGetId(BorrowReturnBookDTO dto)
         {
             using (SqlConnection conn = new SqlConnection(DbHelper.ConnectionString))
@@ -280,5 +284,10 @@ namespace DataLayer
                 cmd.ExecuteNonQuery();
             }
         }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
     }
 }

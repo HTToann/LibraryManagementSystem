@@ -4,8 +4,16 @@ using System.Drawing;
 using System.Windows.Forms;
 using BusinessLayer;
 using DTOs;
+<<<<<<< HEAD
 using Guna.UI2.WinForms;
 
+=======
+<<<<<<< HEAD
+using Guna.UI2.WinForms;
+
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 namespace LibrarySystem.FormControl
 {
     public partial class DetailBorrowReturnBookControl : UserControl
@@ -13,14 +21,26 @@ namespace LibrarySystem.FormControl
         private DetailBorrowReturnBookService _service = new DetailBorrowReturnBookService();
         private BorrowReturnBookService _borrowReturnBookService = new BorrowReturnBookService();
         private BookService _bookService = new BookService();
+<<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 
+=======
+<<<<<<< HEAD
+        private Guna2DataGridView dgv = new Guna2DataGridView();
+
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
         private int selectedID = -1;
 
         public DetailBorrowReturnBookControl()
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
         private void InitDataGridView()
         {
             // ❌ Không cho người dùng thao tác
@@ -108,6 +128,11 @@ namespace LibrarySystem.FormControl
             if (!this.Controls.Contains(dgv))
                 this.Controls.Add(dgv);
         }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 
         private void LoadData()
         {
@@ -116,6 +141,40 @@ namespace LibrarySystem.FormControl
             dgv.DataSource = _service.GetAllDetails();
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        private void BeautyDGV()
+        {
+            // Không cho người dùng chỉnh cột
+            dgv.AllowUserToResizeColumns = false;
+            dgv.AllowUserToResizeRows = false;
+            // Không cho thêm dòng mới
+            dgv.AllowUserToAddRows = false;
+            // Tự động resize
+            dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgv.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            // Chỉnh header đẹp
+            dgv.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 10, FontStyle.Bold);
+            dgv.ColumnHeadersDefaultCellStyle.BackColor = Color.LightSteelBlue;
+            dgv.ColumnHeadersDefaultCellStyle.ForeColor = Color.Black;
+            dgv.EnableHeadersVisualStyles = false;
+
+            // Chỉnh cell
+            dgv.DefaultCellStyle.Font = new Font("Segoe UI", 10);
+            dgv.DefaultCellStyle.ForeColor = Color.Black;
+            dgv.DefaultCellStyle.BackColor = Color.White;
+            dgv.DefaultCellStyle.SelectionBackColor = Color.LightSkyBlue;
+            dgv.DefaultCellStyle.SelectionForeColor = Color.Black;
+
+            // Canh giữa cho header
+            dgv.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            // Canh lề trái cho cell
+            dgv.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
+        }
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
         private void ResetForm()
         {
                 txtCount.Text = "";
@@ -140,7 +199,15 @@ namespace LibrarySystem.FormControl
             txtCount.Text = "1";
             LoadData();
             LoadComboboxs();
+<<<<<<< HEAD
             InitDataGridView();
+=======
+<<<<<<< HEAD
+            InitDataGridView();
+=======
+            BeautyDGV();
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
         }
 
         private void dgv_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -155,11 +222,24 @@ namespace LibrarySystem.FormControl
                 selectedID = Convert.ToInt32(row.Cells["ID"].Value);
             }
         }
+<<<<<<< HEAD
         private bool ValidateForm()
+=======
+<<<<<<< HEAD
+        private bool ValidateForm()
+=======
+
+        private void btInsert_Click(object sender, EventArgs e)
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
         {
             if (string.IsNullOrWhiteSpace(txtCount.Text))
             {
                 MessageBox.Show("Please fill in all required fields.");
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
                 return false;
             }
             return true;
@@ -168,6 +248,13 @@ namespace LibrarySystem.FormControl
         {
             if (!ValidateForm())
                 return;
+<<<<<<< HEAD
+=======
+=======
+                return;
+            }
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 
             var detail = new DetailBorrowReturnBookDTO
             {
@@ -192,8 +279,17 @@ namespace LibrarySystem.FormControl
                 MessageBox.Show("Please select a data row to update!");
                 return;
             }
+<<<<<<< HEAD
             if (!ValidateForm())
                 return;
+=======
+<<<<<<< HEAD
+            if (!ValidateForm())
+                return;
+=======
+
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
             var detail = new DetailBorrowReturnBookDTO
             {
                 ID= selectedID,

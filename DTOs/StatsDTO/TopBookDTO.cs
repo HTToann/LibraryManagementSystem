@@ -6,9 +6,16 @@ using System.Threading.Tasks;
 
 namespace DTOs
 {
+<<<<<<<< HEAD:DTOs/StatsDTO/TopBookDTO.cs
     public class TopBookDTO
     {
         public string BookName { get; set; }
         public int BorrowCount { get; set; }
+========
+    public class BorrowPerMonthDTO
+    {
+        public int Month { get; set; }
+        public int TotalBorrows { get; set; }
+>>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2:DTOs/StatsDTO/BorrowPerMonthDTO.cs
     }
 }

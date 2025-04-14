@@ -4,8 +4,16 @@ using System.Drawing;
 using System.Windows.Forms;
 using BusinessLayer;
 using DTOs;
+<<<<<<< HEAD
 using Guna.UI2.WinForms;
 
+=======
+<<<<<<< HEAD
+using Guna.UI2.WinForms;
+
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 namespace LibrarySystem.FormControl
 {
     public partial class BookControl : UserControl
@@ -14,13 +22,25 @@ namespace LibrarySystem.FormControl
         private CategoryService _categoryService = new CategoryService();
         private PublisherService _publisherService = new PublisherService();
         private SupplierService _supplierService = new SupplierService();
+<<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 
+=======
+<<<<<<< HEAD
+        private Guna2DataGridView dgv = new Guna2DataGridView();
+
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 
         private int selectedBookID = -1;
         public BookControl()
         {
             InitializeComponent();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 
         }
         private void InitDataGridView()
@@ -126,6 +146,11 @@ namespace LibrarySystem.FormControl
             // ✅ Thêm vào form hoặc container
             if (!this.Controls.Contains(dgv))
                 this.Controls.Add(dgv);
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
         }
         private void LoadData()
         {
@@ -154,6 +179,40 @@ namespace LibrarySystem.FormControl
             cbSupplier.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             cbSupplier.AutoCompleteSource = AutoCompleteSource.ListItems;
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        private void BeautyDGV()
+        {
+            // Không cho người dùng chỉnh cột
+            dgv.AllowUserToResizeColumns = false;
+            dgv.AllowUserToResizeRows = false;
+            // Không cho thêm dòng mới
+            dgv.AllowUserToAddRows = false;
+            // Tự động resize
+            dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgv.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            // Chỉnh header đẹp
+            dgv.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 10, FontStyle.Bold);
+            dgv.ColumnHeadersDefaultCellStyle.BackColor = Color.LightSteelBlue;
+            dgv.ColumnHeadersDefaultCellStyle.ForeColor = Color.Black;
+            dgv.EnableHeadersVisualStyles = false;
+
+            // Chỉnh cell
+            dgv.DefaultCellStyle.Font = new Font("Segoe UI", 10);
+            dgv.DefaultCellStyle.ForeColor = Color.Black;
+            dgv.DefaultCellStyle.BackColor = Color.White;
+            dgv.DefaultCellStyle.SelectionBackColor = Color.LightSkyBlue;
+            dgv.DefaultCellStyle.SelectionForeColor = Color.Black;
+
+            // Canh giữa cho header
+            dgv.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            // Canh lề trái cho cell
+            dgv.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
+        }
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
         private void ResetForm()
         {
             txtCodeBook.Text = "";
@@ -164,7 +223,15 @@ namespace LibrarySystem.FormControl
         private void BookControl_Load(object sender, System.EventArgs e)
         {
             LoadComboBoxes();
+<<<<<<< HEAD
             InitDataGridView();
+=======
+<<<<<<< HEAD
+            InitDataGridView();
+=======
+            BeautyDGV();
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
             LoadData();
         }
         private void dgv_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -185,6 +252,10 @@ namespace LibrarySystem.FormControl
                 selectedBookID = Convert.ToInt32(row.Cells["BookID"].Value);
             }
         }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
         private bool ValidateForm()
         {
             if (string.IsNullOrWhiteSpace(txtCodeBook.Text) ||
@@ -203,6 +274,23 @@ namespace LibrarySystem.FormControl
             // Kiểm tra rỗng
             if (!ValidateForm())
                 return;
+<<<<<<< HEAD
+=======
+=======
+
+        private void btInsert_Click(object sender, EventArgs e)
+        {
+            // Kiểm tra rỗng
+            if (string.IsNullOrWhiteSpace(txtCodeBook.Text) ||
+                string.IsNullOrWhiteSpace(txtNameBook.Text) ||
+                string.IsNullOrWhiteSpace(txtCount.Text) ||
+                 string.IsNullOrWhiteSpace(txtYear.Text))
+            {
+                MessageBox.Show("Please fill in all required fields.");
+                return;
+            }
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 
             var book = new BookDTO
             {
@@ -231,9 +319,18 @@ namespace LibrarySystem.FormControl
                 MessageBox.Show("Please select a book to update!");
                 return;
             }
+<<<<<<< HEAD
             // Kiểm tra rỗng
             if (!ValidateForm())
                 return;
+=======
+<<<<<<< HEAD
+            // Kiểm tra rỗng
+            if (!ValidateForm())
+                return;
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 
             var book = new BookDTO
             {
