@@ -5,10 +5,13 @@ using System.Windows.Forms;
 using BusinessLayer;
 using DTOs;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Guna.UI2.WinForms;
 
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 using Guna.UI2.WinForms;
 
@@ -21,17 +24,23 @@ using Guna.UI2.WinForms;
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 namespace LibrarySystem.FormControl
 {
     public partial class AuthorControl : UserControl
     {
         private AuthorService _service = new AuthorService();
 <<<<<<< HEAD
+<<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 
@@ -44,7 +53,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
         private int selectedAuthorID = -1;
         public AuthorControl()
         {
@@ -58,13 +70,19 @@ namespace LibrarySystem.FormControl
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
         private void InitDataGridView()
         {
             // ❌ Không cho người dùng thao tác
@@ -148,7 +166,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -184,7 +205,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
         }
         private void ResetForm()
         {
@@ -196,9 +220,12 @@ namespace LibrarySystem.FormControl
         private void AuthorControl_Load(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             InitDataGridView();
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
             InitDataGridView();
 =======
@@ -211,7 +238,10 @@ namespace LibrarySystem.FormControl
 =======
             BeautyDGV();
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             LoadData();
         }
 
@@ -228,13 +258,19 @@ namespace LibrarySystem.FormControl
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
         private bool ValidateForm()
         {
             if (string.IsNullOrWhiteSpace(txtFirstName.Text) ||
@@ -249,22 +285,31 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 
         private void btInsert_Click(object sender, EventArgs e)
         {
             // Kiểm tra rỗng
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!ValidateForm())
                 return;
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
             if (!ValidateForm())
                 return;
@@ -286,7 +331,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 
             var author = new AuthorDTO
             {
@@ -318,10 +366,13 @@ namespace LibrarySystem.FormControl
                 return;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!ValidateForm())
                 return;
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
             if (!ValidateForm())
                 return;
@@ -334,7 +385,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 
             var author = new AuthorDTO
             {

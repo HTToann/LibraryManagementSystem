@@ -80,9 +80,12 @@
     <Compile Include="CategoryService.cs" />
     <Compile Include="DetailBorrowReturnBookService.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Gmail\GmailService.cs" />
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
     <Compile Include="Gmail\GmailService.cs" />
 =======
@@ -93,16 +96,22 @@
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
     <Compile Include="HistoryBorrowService.cs" />
     <Compile Include="PenaltyService.cs" />
     <Compile Include="PublisherService.cs" />
     <Compile Include="ReaderService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="StatsService.cs" />
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
     <Compile Include="StatsService.cs" />
 =======
@@ -113,7 +122,10 @@
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
     <Compile Include="SupplierService.cs" />
     <Compile Include="UserService.cs" />
   </ItemGroup>

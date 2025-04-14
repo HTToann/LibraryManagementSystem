@@ -5,10 +5,13 @@ using System.Windows.Forms;
 using BusinessLayer;
 using DTOs;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Guna.UI2.WinForms;
 
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 using Guna.UI2.WinForms;
 
@@ -21,7 +24,10 @@ using Guna.UI2.WinForms;
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 namespace LibrarySystem.FormControl
 {
     public partial class Book_AuthorControl : UserControl
@@ -30,10 +36,13 @@ namespace LibrarySystem.FormControl
         private BookService _bookService = new BookService();
         private AuthorService _authorService = new AuthorService();
 <<<<<<< HEAD
+<<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 
@@ -46,7 +55,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 
         private int selectedBookAuthorID = -1;
         public Book_AuthorControl()
@@ -54,13 +66,19 @@ namespace LibrarySystem.FormControl
             InitializeComponent();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
         private void InitDataGridView()
         {
             // ❌ Không cho người dùng thao tác
@@ -151,13 +169,19 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
         private void LoadData()
         {
             dgv.DataSource = null;
@@ -180,9 +204,12 @@ namespace LibrarySystem.FormControl
             cbBook.AutoCompleteSource = AutoCompleteSource.ListItems;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
       
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
       
 =======
@@ -224,7 +251,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
         private void ResetForm()
         {
         }
@@ -233,9 +263,12 @@ namespace LibrarySystem.FormControl
         {
             LoadComboBoxes();
 <<<<<<< HEAD
+<<<<<<< HEAD
             InitDataGridView();
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
             InitDataGridView();
 =======
@@ -248,7 +281,10 @@ namespace LibrarySystem.FormControl
 =======
             BeautyDGV();
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             LoadData();
         }
 

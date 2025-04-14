@@ -1,9 +1,12 @@
 ﻿using BusinessLayer;
 using DTOs;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Guna.UI2.WinForms;
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 using Guna.UI2.WinForms;
 =======
@@ -14,7 +17,10 @@ using Guna.UI2.WinForms;
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -26,9 +32,12 @@ namespace LibrarySystem.FormControl
         private ReaderService _service = new ReaderService();
         private int selectedReaderID = -1;
 <<<<<<< HEAD
+<<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 =======
@@ -39,20 +48,29 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 
         public ReaderControl()
         {
             InitializeComponent();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
         private void InitDataGridView()
         {
             // ❌ Không cho người dùng thao tác
@@ -162,13 +180,19 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 
         private void LoadReaderData()
         {
@@ -181,13 +205,19 @@ namespace LibrarySystem.FormControl
             cbGender.DataSource = new List<string> { "Male", "Female" };
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
         private bool ValidateForm()
         {
             if (string.IsNullOrWhiteSpace(txtFirstName.Text) ||
@@ -224,7 +254,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -268,7 +301,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             cbGender.SelectedIndex = 0;
             dptDate.Value = DateTime.Today;
             selectedReaderID = -1;
@@ -278,9 +314,12 @@ namespace LibrarySystem.FormControl
         {
             LoadGenderCombobox();
 <<<<<<< HEAD
+<<<<<<< HEAD
             InitDataGridView();
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
             InitDataGridView();
 =======
@@ -293,7 +332,10 @@ namespace LibrarySystem.FormControl
 =======
             BeautyDGV();
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             LoadReaderData();
             dptDate.Value = DateTime.Today;
 
@@ -302,9 +344,12 @@ namespace LibrarySystem.FormControl
         private void btInsert_Click(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!ValidateForm()) return;
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
             if (!ValidateForm()) return;
 =======
@@ -340,7 +385,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             var reader = new ReaderDTO
             {
                 FirstName = txtFirstName.Text,
@@ -370,9 +418,12 @@ namespace LibrarySystem.FormControl
                 return;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!ValidateForm()) return;
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
             if (!ValidateForm()) return;
 =======
@@ -385,7 +436,10 @@ namespace LibrarySystem.FormControl
 =======
 
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             var reader = new ReaderDTO
             {
                 ReaderID = selectedReaderID,

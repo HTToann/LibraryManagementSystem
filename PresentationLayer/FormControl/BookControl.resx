@@ -119,10 +119,13 @@
   </resheader>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<<< HEAD:PresentationLayer/FormControl/UI/BorrowBookUI.resx
 ========
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<<< HEAD:PresentationLayer/FormControl/BookControl.resx
 <<<<<<< HEAD
 =======
@@ -133,11 +136,15 @@
 <<<<<<<< HEAD:PresentationLayer/FormControl/BorrowReturnBookControl.resx
 =======
 <<<<<<<< HEAD:PresentationLayer/FormControl/PublisherControl.resx
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -168,6 +175,8 @@
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
   <metadata name="PublisherID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -233,6 +242,9 @@
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>>> 871a8b6516b92655cf4785302f34199e02192535:PresentationLayer/FormControl/BookControl.resx
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 </root>

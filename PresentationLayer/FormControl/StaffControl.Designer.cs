@@ -64,10 +64,13 @@ namespace LibrarySystem.FormControl
             this.btReset = new System.Windows.Forms.Button();
             this.btDelete = new System.Windows.Forms.Button();
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.btUpdate = new System.Windows.Forms.Button();
             this.btSave = new System.Windows.Forms.Button();
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
             this.btUpdate = new System.Windows.Forms.Button();
             this.btSave = new System.Windows.Forms.Button();
@@ -94,7 +97,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.pnQuanLyDG.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -106,8 +112,11 @@ namespace LibrarySystem.FormControl
             this.panel1.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -118,15 +127,21 @@ namespace LibrarySystem.FormControl
 =======
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsers)).BeginInit();
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.SuspendLayout();
             // 
             // pnQuanLyDG
             // 
             this.pnQuanLyDG.Controls.Add(this.tableLayoutPanel1);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -137,7 +152,10 @@ namespace LibrarySystem.FormControl
 =======
             this.pnQuanLyDG.Controls.Add(this.dgvUsers);
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.pnQuanLyDG.Cursor = System.Windows.Forms.Cursors.Default;
             this.pnQuanLyDG.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnQuanLyDG.Location = new System.Drawing.Point(0, 0);
@@ -158,10 +176,13 @@ namespace LibrarySystem.FormControl
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 285F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1320, 633);
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 285F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1320, 633);
@@ -178,7 +199,10 @@ namespace LibrarySystem.FormControl
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 385F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1320, 385);
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.tableLayoutPanel1.TabIndex = 16;
             // 
             // panel2
@@ -188,9 +212,12 @@ namespace LibrarySystem.FormControl
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.panel2.Size = new System.Drawing.Size(710, 627);
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
             this.panel2.Size = new System.Drawing.Size(710, 627);
 =======
@@ -203,7 +230,10 @@ namespace LibrarySystem.FormControl
 =======
             this.panel2.Size = new System.Drawing.Size(710, 379);
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.panel2.TabIndex = 14;
             // 
             // groupBox8
@@ -215,11 +245,14 @@ namespace LibrarySystem.FormControl
             this.groupBox8.Location = new System.Drawing.Point(0, 0);
             this.groupBox8.Name = "groupBox8";
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.groupBox8.Size = new System.Drawing.Size(710, 627);
             this.groupBox8.TabIndex = 15;
             this.groupBox8.TabStop = false;
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
             this.groupBox8.Size = new System.Drawing.Size(710, 627);
             this.groupBox8.TabIndex = 15;
@@ -241,19 +274,28 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             // 
             // tableLayoutPanel3
             // 
             this.tableLayoutPanel3.ColumnCount = 4;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.88068F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 29.82955F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.3125F));
@@ -261,7 +303,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -274,7 +319,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.tableLayoutPanel3.Controls.Add(this.cbRole, 3, 2);
             this.tableLayoutPanel3.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.txtPassword, 3, 1);
@@ -301,9 +349,12 @@ namespace LibrarySystem.FormControl
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21.00592F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.14793F));
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.tableLayoutPanel3.Size = new System.Drawing.Size(704, 586);
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
             this.tableLayoutPanel3.Size = new System.Drawing.Size(704, 586);
 =======
@@ -316,7 +367,10 @@ namespace LibrarySystem.FormControl
 =======
             this.tableLayoutPanel3.Size = new System.Drawing.Size(704, 338);
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.tableLayoutPanel3.TabIndex = 22;
             // 
             // cbRole
@@ -325,13 +379,19 @@ namespace LibrarySystem.FormControl
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cbRole.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.cbRole.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.cbRole.FormattingEnabled = true;
             this.cbRole.Location = new System.Drawing.Point(503, 221);
@@ -340,7 +400,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -353,7 +416,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.cbRole.TabIndex = 8;
             // 
             // label1
@@ -362,13 +428,19 @@ namespace LibrarySystem.FormControl
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
@@ -376,7 +448,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -389,7 +464,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.label1.TabIndex = 34;
             this.label1.Text = "First Name";
             // 
@@ -398,13 +476,19 @@ namespace LibrarySystem.FormControl
             this.txtPassword.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.txtPassword.Location = new System.Drawing.Point(503, 118);
             this.txtPassword.Multiline = true;
@@ -413,7 +497,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -427,7 +514,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.txtPassword.TabIndex = 7;
             // 
             // txtUsername
@@ -435,13 +525,19 @@ namespace LibrarySystem.FormControl
             this.txtUsername.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.txtUsername.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.txtUsername.Location = new System.Drawing.Point(503, 3);
             this.txtUsername.Multiline = true;
@@ -450,7 +546,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -464,7 +563,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.txtUsername.TabIndex = 6;
             // 
             // label7
@@ -473,13 +575,19 @@ namespace LibrarySystem.FormControl
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.label7.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.label7.Location = new System.Drawing.Point(360, 218);
             this.label7.Name = "label7";
@@ -487,7 +595,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -500,7 +611,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.label7.TabIndex = 44;
             this.label7.Text = "Role";
             // 
@@ -510,13 +624,19 @@ namespace LibrarySystem.FormControl
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.label4.Location = new System.Drawing.Point(3, 115);
             this.label4.Name = "label4";
@@ -524,7 +644,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -537,7 +660,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.label4.TabIndex = 38;
             this.label4.Text = "Last Name";
             // 
@@ -547,13 +673,19 @@ namespace LibrarySystem.FormControl
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.label6.Location = new System.Drawing.Point(3, 218);
             this.label6.Name = "label6";
@@ -561,7 +693,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -574,7 +709,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.label6.TabIndex = 39;
             this.label6.Text = "Gmail";
             // 
@@ -584,13 +722,19 @@ namespace LibrarySystem.FormControl
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label9.AutoSize = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.label9.Location = new System.Drawing.Point(3, 317);
             this.label9.Name = "label9";
@@ -598,7 +742,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -611,7 +758,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.label9.TabIndex = 31;
             this.label9.Text = "Address";
             // 
@@ -621,13 +771,19 @@ namespace LibrarySystem.FormControl
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label8.AutoSize = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.label8.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.label8.Location = new System.Drawing.Point(360, 115);
             this.label8.Name = "label8";
@@ -635,7 +791,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -648,7 +807,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.label8.TabIndex = 32;
             this.label8.Text = "Password";
             // 
@@ -657,13 +819,19 @@ namespace LibrarySystem.FormControl
             this.txtPhone.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.txtPhone.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.txtPhone.Location = new System.Drawing.Point(150, 442);
             this.txtPhone.Multiline = true;
@@ -672,7 +840,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -686,7 +857,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.txtPhone.TabIndex = 5;
             // 
             // label2
@@ -695,13 +869,19 @@ namespace LibrarySystem.FormControl
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.label2.Location = new System.Drawing.Point(360, 0);
             this.label2.Name = "label2";
@@ -709,7 +889,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -722,7 +905,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.label2.TabIndex = 33;
             this.label2.Text = "Username";
             // 
@@ -731,13 +917,19 @@ namespace LibrarySystem.FormControl
             this.txtAddress.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.txtAddress.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.txtAddress.Location = new System.Drawing.Point(150, 320);
             this.txtAddress.Multiline = true;
@@ -746,7 +938,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -760,7 +955,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.txtAddress.TabIndex = 4;
             // 
             // label3
@@ -769,13 +967,19 @@ namespace LibrarySystem.FormControl
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.label3.Location = new System.Drawing.Point(3, 439);
             this.label3.Name = "label3";
@@ -783,7 +987,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -796,7 +1003,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.label3.TabIndex = 30;
             this.label3.Text = "Phone";
             // 
@@ -805,13 +1015,19 @@ namespace LibrarySystem.FormControl
             this.txtGmail.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.txtGmail.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.txtGmail.Location = new System.Drawing.Point(150, 221);
             this.txtGmail.Multiline = true;
@@ -820,7 +1036,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -834,7 +1053,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.txtGmail.TabIndex = 3;
             // 
             // txtFirstName
@@ -842,13 +1064,19 @@ namespace LibrarySystem.FormControl
             this.txtFirstName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.txtFirstName.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.txtFirstName.Location = new System.Drawing.Point(150, 3);
             this.txtFirstName.Multiline = true;
@@ -857,7 +1085,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -871,7 +1102,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.txtFirstName.TabIndex = 1;
             // 
             // txtLastName
@@ -879,13 +1113,19 @@ namespace LibrarySystem.FormControl
             this.txtLastName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.txtLastName.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.txtLastName.Location = new System.Drawing.Point(150, 118);
             this.txtLastName.Multiline = true;
@@ -894,7 +1134,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -908,7 +1151,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.txtLastName.TabIndex = 2;
             // 
             // lbSoPhieu
@@ -949,9 +1195,12 @@ namespace LibrarySystem.FormControl
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.tableLayoutPanel2.Size = new System.Drawing.Size(598, 627);
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
             this.tableLayoutPanel2.Size = new System.Drawing.Size(598, 627);
 =======
@@ -964,7 +1213,10 @@ namespace LibrarySystem.FormControl
 =======
             this.tableLayoutPanel2.Size = new System.Drawing.Size(598, 379);
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.tableLayoutPanel2.TabIndex = 11;
             // 
             // panel3
@@ -974,9 +1226,12 @@ namespace LibrarySystem.FormControl
             this.panel3.Location = new System.Drawing.Point(3, 3);
             this.panel3.Name = "panel3";
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.panel3.Size = new System.Drawing.Size(592, 307);
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
             this.panel3.Size = new System.Drawing.Size(592, 307);
 =======
@@ -989,7 +1244,10 @@ namespace LibrarySystem.FormControl
 =======
             this.panel3.Size = new System.Drawing.Size(592, 183);
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.panel3.TabIndex = 15;
             // 
             // groupBox3
@@ -1000,13 +1258,19 @@ namespace LibrarySystem.FormControl
             this.groupBox3.Controls.Add(this.btSearch);
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.groupBox3.Location = new System.Drawing.Point(0, 0);
             this.groupBox3.Name = "groupBox3";
@@ -1014,7 +1278,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -1027,7 +1294,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.groupBox3.TabIndex = 10;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Search";
@@ -1036,13 +1306,19 @@ namespace LibrarySystem.FormControl
             // 
             this.tbKw.Cursor = System.Windows.Forms.Cursors.Arrow;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.tbKw.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.tbKw.Location = new System.Drawing.Point(23, 128);
             this.tbKw.Name = "tbKw";
@@ -1050,7 +1326,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -1063,20 +1342,29 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.tbKw.TabIndex = 7;
             // 
             // rdName
             // 
             this.rdName.AutoSize = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.rdName.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.rdName.ForeColor = System.Drawing.Color.DodgerBlue;
             this.rdName.Location = new System.Drawing.Point(200, 62);
@@ -1085,7 +1373,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -1099,7 +1390,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.rdName.TabIndex = 0;
             this.rdName.Text = "Username";
             this.rdName.UseVisualStyleBackColor = true;
@@ -1109,13 +1403,19 @@ namespace LibrarySystem.FormControl
             this.rdID.AutoSize = true;
             this.rdID.Checked = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.rdID.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.rdID.ForeColor = System.Drawing.Color.DodgerBlue;
             this.rdID.Location = new System.Drawing.Point(23, 62);
@@ -1124,7 +1424,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -1138,7 +1441,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.rdID.TabIndex = 0;
             this.rdID.TabStop = true;
             this.rdID.Text = "ID";
@@ -1148,13 +1454,19 @@ namespace LibrarySystem.FormControl
             // 
             this.btSearch.BackColor = System.Drawing.Color.DodgerBlue;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.btSearch.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.btSearch.ForeColor = System.Drawing.SystemColors.Window;
             this.btSearch.Location = new System.Drawing.Point(421, 98);
@@ -1163,7 +1475,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -1177,7 +1492,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.btSearch.TabIndex = 7;
             this.btSearch.Text = "Search";
             this.btSearch.UseVisualStyleBackColor = false;
@@ -1188,11 +1506,14 @@ namespace LibrarySystem.FormControl
             this.panel1.Controls.Add(this.tableLayoutPanel4);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.panel1.Location = new System.Drawing.Point(3, 316);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(592, 308);
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
             this.panel1.Location = new System.Drawing.Point(3, 316);
             this.panel1.Name = "panel1";
@@ -1213,7 +1534,10 @@ namespace LibrarySystem.FormControl
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(592, 184);
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.panel1.TabIndex = 16;
             // 
             // tableLayoutPanel4
@@ -1226,10 +1550,13 @@ namespace LibrarySystem.FormControl
             this.tableLayoutPanel4.Controls.Add(this.btReset, 0, 1);
             this.tableLayoutPanel4.Controls.Add(this.btDelete, 2, 0);
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.tableLayoutPanel4.Controls.Add(this.btUpdate, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.btSave, 1, 1);
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
             this.tableLayoutPanel4.Controls.Add(this.btUpdate, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.btSave, 1, 1);
@@ -1246,7 +1573,10 @@ namespace LibrarySystem.FormControl
             this.tableLayoutPanel4.Controls.Add(this.btSave, 1, 1);
             this.tableLayoutPanel4.Controls.Add(this.btUpdate, 1, 0);
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
@@ -1254,9 +1584,12 @@ namespace LibrarySystem.FormControl
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.tableLayoutPanel4.Size = new System.Drawing.Size(592, 308);
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
             this.tableLayoutPanel4.Size = new System.Drawing.Size(592, 308);
 =======
@@ -1269,7 +1602,10 @@ namespace LibrarySystem.FormControl
 =======
             this.tableLayoutPanel4.Size = new System.Drawing.Size(592, 184);
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.tableLayoutPanel4.TabIndex = 0;
             // 
             // btInsertReader
@@ -1277,13 +1613,19 @@ namespace LibrarySystem.FormControl
             this.btInsertReader.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.btInsertReader.BackColor = System.Drawing.Color.DodgerBlue;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.btInsertReader.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.btInsertReader.ForeColor = System.Drawing.SystemColors.Window;
             this.btInsertReader.Location = new System.Drawing.Point(3, 46);
@@ -1292,7 +1634,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -1306,7 +1651,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.btInsertReader.TabIndex = 13;
             this.btInsertReader.Text = "Insert";
             this.btInsertReader.UseVisualStyleBackColor = false;
@@ -1317,13 +1665,19 @@ namespace LibrarySystem.FormControl
             this.btReset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.btReset.BackColor = System.Drawing.Color.DodgerBlue;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.btReset.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.btReset.ForeColor = System.Drawing.SystemColors.Window;
             this.btReset.Location = new System.Drawing.Point(3, 200);
@@ -1332,7 +1686,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -1346,7 +1703,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.btReset.TabIndex = 12;
             this.btReset.Text = "Reset";
             this.btReset.UseVisualStyleBackColor = false;
@@ -1357,13 +1717,19 @@ namespace LibrarySystem.FormControl
             this.btDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.btDelete.BackColor = System.Drawing.Color.DodgerBlue;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.btDelete.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.btDelete.ForeColor = System.Drawing.SystemColors.Window;
             this.btDelete.Location = new System.Drawing.Point(397, 46);
@@ -1372,7 +1738,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -1386,15 +1755,21 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.btDelete.TabIndex = 15;
             this.btDelete.Text = "Delete";
             this.btDelete.UseVisualStyleBackColor = false;
             this.btDelete.Click += new System.EventHandler(this.btDelete_Click);
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1419,19 +1794,28 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             // btUpdate
             // 
             this.btUpdate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.btUpdate.BackColor = System.Drawing.Color.DodgerBlue;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.btUpdate.Font = new System.Drawing.Font("Segoe UI", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.btUpdate.ForeColor = System.Drawing.SystemColors.Window;
             this.btUpdate.Location = new System.Drawing.Point(200, 46);
@@ -1440,7 +1824,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -1454,20 +1841,29 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.btUpdate.TabIndex = 14;
             this.btUpdate.Text = "Update";
             this.btUpdate.UseVisualStyleBackColor = false;
             this.btUpdate.Click += new System.EventHandler(this.btUpdate_Click);
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             // btSave
             // 
             this.btSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
@@ -1483,7 +1879,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -1586,7 +1985,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             // 
             // StaffControl
             // 
@@ -1609,8 +2011,11 @@ namespace LibrarySystem.FormControl
             this.panel1.ResumeLayout(false);
             this.tableLayoutPanel4.ResumeLayout(false);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1621,7 +2026,10 @@ namespace LibrarySystem.FormControl
 =======
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsers)).EndInit();
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.ResumeLayout(false);
 
         }
@@ -1630,8 +2038,11 @@ namespace LibrarySystem.FormControl
 
         private System.Windows.Forms.Panel pnQuanLyDG;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1652,7 +2063,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.GroupBox groupBox3;

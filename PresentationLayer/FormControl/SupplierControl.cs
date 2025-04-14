@@ -5,10 +5,13 @@ using System.Windows.Forms;
 using BusinessLayer;
 using DTOs;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Guna.UI2.WinForms;
 
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 using Guna.UI2.WinForms;
 
@@ -21,7 +24,10 @@ using Guna.UI2.WinForms;
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 namespace LibrarySystem.FormControl
 {
     public partial class SupplierControl : UserControl
@@ -29,9 +35,12 @@ namespace LibrarySystem.FormControl
         private SupplierService _service = new SupplierService();
         private int selectedSupplierID = -1;
 <<<<<<< HEAD
+<<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 =======
@@ -42,19 +51,28 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
         public SupplierControl()
         {
             InitializeComponent();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
         private void InitDataGridView()
         {
             // ❌ Không cho người dùng thao tác
@@ -145,7 +163,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -182,7 +203,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
         private void LoadData()
         {
             dgv.DataSource = null;
@@ -192,13 +216,19 @@ namespace LibrarySystem.FormControl
         private void ResetForm()
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             txtName.Clear();
             txtGmail.Clear();
             txtAddress.Clear();
@@ -212,7 +242,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -230,20 +263,29 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             if (string.IsNullOrWhiteSpace(txtName.Text) ||
                 string.IsNullOrWhiteSpace(txtGmail.Text) ||
                 string.IsNullOrWhiteSpace(txtAddress.Text) ||
                 string.IsNullOrWhiteSpace(txtPhone.Text))
             {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
                 message = "Please fill in all required fields.";
                 return false;
             }
@@ -270,7 +312,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -293,7 +338,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
                 return;
             }
             var supplier = new SupplierDTO
@@ -317,9 +365,12 @@ namespace LibrarySystem.FormControl
         private void SupplierControl_Load(object sender, System.EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             InitDataGridView();
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
             InitDataGridView();
 =======
@@ -332,7 +383,10 @@ namespace LibrarySystem.FormControl
 =======
             BeautyDGV();
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             LoadData();
         }
 
@@ -345,13 +399,19 @@ namespace LibrarySystem.FormControl
             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             if (!ValidateInput(out string message))
             {
                 MessageBox.Show(message);
@@ -360,13 +420,19 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             var supplier = new SupplierDTO
             {
                 SupplierID = selectedSupplierID,
@@ -389,9 +455,12 @@ namespace LibrarySystem.FormControl
                 DataGridViewRow row = dgv.Rows[e.RowIndex];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 txtName.Text = row.Cells["Namee"].Value.ToString();
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
                 txtName.Text = row.Cells["Namee"].Value.ToString();
 =======
@@ -404,7 +473,10 @@ namespace LibrarySystem.FormControl
 =======
                 txtName.Text = row.Cells["Name"].Value.ToString();
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
                 txtGmail.Text = row.Cells["Gmail"].Value.ToString();
                 txtAddress.Text = row.Cells["Address"].Value.ToString();
                 txtPhone.Text = row.Cells["Phone"].Value.ToString();
@@ -440,10 +512,13 @@ namespace LibrarySystem.FormControl
         private void btSearch_Click(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             string keyword = tbKw.Text.Trim();
             if (string.IsNullOrWhiteSpace(keyword))
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
             string keyword = tbKw.Text.Trim();
             if (string.IsNullOrWhiteSpace(keyword))
@@ -458,19 +533,28 @@ namespace LibrarySystem.FormControl
 =======
             if (string.IsNullOrWhiteSpace(tbKw.Text))
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             {
                 MessageBox.Show("Keyword cannot be empty!");
                 return;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             dgv.DataSource = null;
             if (rdID.Checked)
             {
@@ -478,7 +562,10 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
             if (rdID.Checked)
             {
@@ -490,16 +577,22 @@ namespace LibrarySystem.FormControl
             {
                 if (!int.TryParse(tbKw.Text, out int supllierId))
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
                 {
                     MessageBox.Show("Supplier ID must be a number!");
                     return;
                 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 var supplier = _service.GetSupplierById(supplierId);
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
                 var supplier = _service.GetSupplierById(supplierId);
 =======
@@ -512,7 +605,10 @@ namespace LibrarySystem.FormControl
 =======
                 var supplier = _service.GetSupplierById(supllierId);
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
                 if (supplier == null)
                 {
                     MessageBox.Show("Supplier not found!");
@@ -521,8 +617,11 @@ namespace LibrarySystem.FormControl
 
                 tbKw.Text = "";
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -533,16 +632,22 @@ namespace LibrarySystem.FormControl
 =======
                 dgv.DataSource = null;
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
                 dgv.DataSource = new List<SupplierDTO> { supplier };
             }
             else if (rdName.Checked)
             {
                 var supplier = _service.GetSupplierByName(tbKw.Text);
 <<<<<<< HEAD
+<<<<<<< HEAD
                 if (supplier == null )
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
                 if (supplier == null )
 =======
@@ -555,14 +660,20 @@ namespace LibrarySystem.FormControl
 =======
                 if (supplier == null)
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
                 {
                     MessageBox.Show("Supplier not found!");
                     return;
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -575,7 +686,10 @@ namespace LibrarySystem.FormControl
                 tbKw.Text = "";
                 dgv.DataSource = null;
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
                 dgv.DataSource = supplier;
             }
             else
@@ -583,9 +697,12 @@ namespace LibrarySystem.FormControl
                 MessageBox.Show("Please select search type: ID or Name.");
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             tbKw.Clear();
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
             tbKw.Clear();
 =======
@@ -596,7 +713,10 @@ namespace LibrarySystem.FormControl
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
         }
     }
     }

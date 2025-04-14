@@ -118,6 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:PresentationLayer/FormControl/UI/BorrowReturnUI.resx
 ========
 <<<<<<< HEAD
@@ -186,12 +187,17 @@
 =======
 <<<<<<<< HEAD:PresentationLayer/FormControl/ReaderControl.resx
 ========
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<<< HEAD:PresentationLayer/FormControl/UI/BorrowReturnUI.resx
 ========
 <<<<<<<< HEAD:PresentationLayer/LoginForm.resx
 ========
   <metadata name="ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
     <value>True</value>
   </metadata>
   <metadata name="AuthorID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -204,13 +210,17 @@
     <value>True</value>
   </metadata>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 =======
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
   <metadata name="BookName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
 >>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a:PresentationLayer/FormControl/Book_AuthorControl.resx
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2:PresentationLayer/FormControl/Book_AuthorControl.resx
@@ -220,4 +230,7 @@
 >>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2:PresentationLayer/LoginForm.resx
 >>>>>>>> 871a8b6516b92655cf4785302f34199e02192535:PresentationLayer/FormControl/UI/BorrowReturnUI.resx
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2:PresentationLayer/LoginForm.resx
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 </root>

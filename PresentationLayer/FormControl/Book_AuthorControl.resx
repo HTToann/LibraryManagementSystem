@@ -118,6 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:PresentationLayer/FormControl/Book_AuthorControl.resx
 ========
 <<<<<<< HEAD
@@ -139,6 +140,12 @@
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 =======
+<<<<<<< HEAD
+<<<<<<<< HEAD:PresentationLayer/FormControl/Book_AuthorControl.resx
+========
+<<<<<<< HEAD
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
+=======
 =======
 <<<<<<<< HEAD:PresentationLayer/FormControl/UI/BorrowBookUI.resx
 ========
@@ -146,7 +153,10 @@
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 <<<<<<<< HEAD:PresentationLayer/FormControl/Book_AuthorControl.resx
 ========
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
   <metadata name="AuthorID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -160,14 +170,20 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 <<<<<<<< HEAD:PresentationLayer/LoginForm.resx
 ========
   <metadata name="ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
     <value>True</value>
   </metadata>
   <metadata name="AuthorID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -176,10 +192,14 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
   <metadata name="FirstName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -193,12 +213,15 @@
 <<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2:PresentationLayer/FormControl/AuthorControl.resx
+<<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 >>>>>>>> 871a8b6516b92655cf4785302f34199e02192535:PresentationLayer/FormControl/AuthorControl.resx
 =======
 <<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2:PresentationLayer/FormControl/AuthorControl.resx
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
   <metadata name="BookID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -228,6 +251,9 @@
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2:PresentationLayer/FormControl/Book_AuthorControl.resx
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>>> 871a8b6516b92655cf4785302f34199e02192535:PresentationLayer/FormControl/Book_AuthorControl.resx
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 </root>

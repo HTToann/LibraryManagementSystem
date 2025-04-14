@@ -17,9 +17,13 @@ namespace DTOs
         public int Month { get; set; }
         public int TotalBorrows { get; set; }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>>> 871a8b6516b92655cf4785302f34199e02192535:DTOs/StatsDTO/BorrowPerMonthDTO.cs
 =======
 >>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2:DTOs/StatsDTO/BorrowPerMonthDTO.cs
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2:DTOs/StatsDTO/BorrowPerMonthDTO.cs
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
     }
 }

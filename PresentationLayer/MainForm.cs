@@ -1,11 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 ﻿// ModernMainForm.cs - Cải tiến giao diện theo thiết kế hiện đại với Guna2 + icon
 using System;
 using System.Drawing;
@@ -21,7 +27,10 @@ using System.Collections.Generic;
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -35,20 +44,29 @@ using System.Windows.Forms;
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 
 namespace LibrarySystem
 {
     public partial class MainForm : Form
     {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
         private Guna2GradientPanel panelSidebar;
         private FlowLayoutPanel sidebarFlow;
         private Guna2Panel panelHeader;
@@ -217,7 +235,10 @@ namespace LibrarySystem
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -292,7 +313,10 @@ namespace LibrarySystem
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             panelMain = new Panel
             {
                 Dock = DockStyle.Fill,
@@ -300,13 +324,19 @@ namespace LibrarySystem
             };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             this.Controls.Add(panelMain);
             this.Controls.Add(panelSidebar);
             this.Controls.Add(panelHeader);
@@ -377,6 +407,7 @@ namespace LibrarySystem
         {
             ContextMenuStrip menu = new ContextMenuStrip();
 <<<<<<< HEAD
+<<<<<<< HEAD
             menu.Items.Add("Change Account", null, (s, ev) => Logout());
             menu.Items.Add("Exit", null, (s, ev) => Application.Exit());
 =======
@@ -384,6 +415,11 @@ namespace LibrarySystem
             menu.Items.Add("Change Password", null, (s, ev) => MessageBox.Show("Go to password change screen."));
             menu.Items.Add("Logout", null, (s, ev) => Logout());
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+            menu.Items.Add("Update Profile", null, (s, ev) => MessageBox.Show("Go to profile update screen."));
+            menu.Items.Add("Change Password", null, (s, ev) => MessageBox.Show("Go to password change screen."));
+            menu.Items.Add("Logout", null, (s, ev) => Logout());
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
             menu.Show(avatar, new Point(0, avatar.Height));
         }
         private void SendReminder()
@@ -428,7 +464,10 @@ namespace LibrarySystem
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
 =======
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
@@ -535,7 +574,10 @@ namespace LibrarySystem
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 =======
 >>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
+<<<<<<< HEAD
 >>>>>>> 871a8b6516b92655cf4785302f34199e02192535
+=======
+>>>>>>> 057b4d8b3eaae73966fe867ed2d53714f6127a6f
         }
     }
 }
