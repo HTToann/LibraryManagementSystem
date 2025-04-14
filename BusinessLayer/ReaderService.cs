@@ -48,9 +48,12 @@ namespace BusinessLayer
         {
             return _repo.SearchById(id);
         }
+<<<<<<< HEAD
         public ReaderDTO FindByGmailOrPhone(string gmail, string phone)
         {
             return _repo.FindByGmailOrPhone(gmail, phone);
         }
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
     }
 }

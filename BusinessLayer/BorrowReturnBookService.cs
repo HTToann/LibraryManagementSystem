@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿    using DataLayer;
+=======
+﻿using DataLayer;
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 using DTOs;
 using System.Collections.Generic;
 
@@ -40,6 +44,7 @@ namespace BusinessLayer
         {
             return _repo.GetAllStatus();
         }
+<<<<<<< HEAD
         public int InsertAndGetId(BorrowReturnBookDTO dto)
         {
             return _repo.InsertAndGetId(dto);
@@ -53,5 +58,7 @@ namespace BusinessLayer
             _repo.MarkAsReturnedByDetailIDs(bookIds);
         }
 
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
     }
 }

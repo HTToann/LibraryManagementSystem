@@ -4,8 +4,11 @@ using System.Drawing;
 using System.Windows.Forms;
 using BusinessLayer;
 using DTOs;
+<<<<<<< HEAD
 using Guna.UI2.WinForms;
 
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 namespace LibrarySystem.FormControl
 {
     public partial class BorrowReturnBookControl : UserControl
@@ -13,13 +16,17 @@ namespace LibrarySystem.FormControl
         private BorrowReturnBookService _service = new BorrowReturnBookService();
         private UserService _userService = new UserService();
         private ReaderService __readerService = new ReaderService();
+<<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
         private int selectedID = -1;
         public BorrowReturnBookControl()
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
         private void InitDataGridView()
         {
             // ❌ Không cho người dùng thao tác
@@ -124,6 +131,9 @@ namespace LibrarySystem.FormControl
             if (!this.Controls.Contains(dgv))
                 this.Controls.Add(dgv);
         }
+=======
+
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
         private void LoadData()
         {
             dgv.DataSource = null;
@@ -150,7 +160,38 @@ namespace LibrarySystem.FormControl
             cbStatus.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             cbStatus.AutoCompleteSource = AutoCompleteSource.ListItems;
         }
+<<<<<<< HEAD
     
+=======
+        private void BeautyDGV()
+        {
+            // Không cho người dùng chỉnh cột
+            dgv.AllowUserToResizeColumns = false;
+            dgv.AllowUserToResizeRows = false;
+            // Không cho thêm dòng mới
+            dgv.AllowUserToAddRows = false;
+            // Tự động resize
+            dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgv.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            // Chỉnh header đẹp
+            dgv.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 10, FontStyle.Bold);
+            dgv.ColumnHeadersDefaultCellStyle.BackColor = Color.LightSteelBlue;
+            dgv.ColumnHeadersDefaultCellStyle.ForeColor = Color.Black;
+            dgv.EnableHeadersVisualStyles = false;
+
+            // Chỉnh cell
+            dgv.DefaultCellStyle.Font = new Font("Segoe UI", 10);
+            dgv.DefaultCellStyle.ForeColor = Color.Black;
+            dgv.DefaultCellStyle.BackColor = Color.White;
+            dgv.DefaultCellStyle.SelectionBackColor = Color.LightSkyBlue;
+            dgv.DefaultCellStyle.SelectionForeColor = Color.Black;
+
+            // Canh giữa cho header
+            dgv.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            // Canh lề trái cho cell
+            dgv.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
+        }
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
         private void ResetForm()
         {
 
@@ -197,7 +238,11 @@ namespace LibrarySystem.FormControl
         {
             LoadData();
             LoadComboboxs();
+<<<<<<< HEAD
             InitDataGridView();
+=======
+            BeautyDGV();
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
         }
 
         private void btUpdate_Click(object sender, EventArgs e)

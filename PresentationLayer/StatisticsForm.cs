@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿// UI hiện đại bằng Guna.UI2 + Chart Control
 
 using System;
@@ -7,11 +8,15 @@ using System.Windows.Forms.DataVisualization.Charting;
 using Guna.UI2.WinForms;
 using BusinessLayer;
 using DTOs;
+=======
+﻿using System.Windows.Forms;
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 
 namespace LibrarySystem
 {
     public partial class StatisticsForm : Form
     {
+<<<<<<< HEAD
         private StatsService _statsService = new StatsService();
 
         private Guna2Panel menuPanel;
@@ -224,6 +229,11 @@ namespace LibrarySystem
                     MessageBox.Show("Export successful!", "Chart Export", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
+=======
+        public StatisticsForm()
+        {
+            InitializeComponent();
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
         }
     }
 }

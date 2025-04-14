@@ -50,7 +50,10 @@
     <Compile Include="HistoryBorrowRepository.cs" />
     <Compile Include="PenaltyRepository.cs" />
     <Compile Include="PublisherRepository.cs" />
+<<<<<<< HEAD
     <Compile Include="StatsRepository.cs" />
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
     <Compile Include="SupplierRepository.cs" />
     <Compile Include="ReaderRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

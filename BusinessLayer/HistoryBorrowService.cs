@@ -35,9 +35,12 @@ namespace BusinessLayer
         {
             return _repo.GetByDetailBorrowReturnID(id);
         }
+<<<<<<< HEAD
         public int InsertAndGetId(HistoryBorrowDTO dto)
         {
             return _repo.InsertAndGetId(dto);
         }
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
     }
 }

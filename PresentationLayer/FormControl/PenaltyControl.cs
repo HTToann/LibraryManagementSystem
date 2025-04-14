@@ -4,8 +4,11 @@ using System.Drawing;
 using System.Windows.Forms;
 using BusinessLayer;
 using DTOs;
+<<<<<<< HEAD
 using Guna.UI2.WinForms;
 
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 namespace LibrarySystem.FormControl
 {
     public partial class PenaltyControl : UserControl
@@ -13,8 +16,11 @@ namespace LibrarySystem.FormControl
         private HistoryBorrowService _historyService = new HistoryBorrowService();
         private PenaltyService _service = new PenaltyService();
         private int selectedID = -1;
+<<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
         public PenaltyControl()
         {
             InitializeComponent();
@@ -25,6 +31,7 @@ namespace LibrarySystem.FormControl
             dgv.AutoGenerateColumns = false;
             dgv.DataSource = _service.GetAllPenalties();
         }
+<<<<<<< HEAD
         private void InitDataGridView()
         {
             // ❌ Không cho người dùng thao tác
@@ -147,6 +154,40 @@ namespace LibrarySystem.FormControl
                 selectedID = Convert.ToInt32(row.Cells["ID"].Value);
             }
         }
+=======
+
+        private void BeautyDGV()
+        {
+            // Không cho người dùng chỉnh cột
+            dgv.AllowUserToResizeColumns = false;
+            dgv.AllowUserToResizeRows = false;
+            // Không cho thêm dòng mới
+            dgv.AllowUserToAddRows = false;
+            // Tự động resize
+            dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgv.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            // Chỉnh header đẹp
+            dgv.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 10, FontStyle.Bold);
+            dgv.ColumnHeadersDefaultCellStyle.BackColor = Color.LightSteelBlue;
+            dgv.ColumnHeadersDefaultCellStyle.ForeColor = Color.Black;
+            dgv.EnableHeadersVisualStyles = false;
+
+            // Chỉnh cell
+            dgv.DefaultCellStyle.Font = new Font("Segoe UI", 10);
+            dgv.DefaultCellStyle.ForeColor = Color.Black;
+            dgv.DefaultCellStyle.BackColor = Color.White;
+            dgv.DefaultCellStyle.SelectionBackColor = Color.LightSkyBlue;
+            dgv.DefaultCellStyle.SelectionForeColor = Color.Black;
+
+            // Canh giữa cho header
+            dgv.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            // Canh lề trái cho cell
+            dgv.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
+        }
+        private void ResetForm()
+        {
+        }
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
         private void LoadComboboxs()
         {
             var statusList = new List<KeyValuePair<string, int>>()
@@ -172,7 +213,11 @@ namespace LibrarySystem.FormControl
             txtDays.Text = "1";
             LoadData();
             LoadComboboxs();
+<<<<<<< HEAD
             InitDataGridView();
+=======
+            BeautyDGV();
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
         }
 
         private void btUpdate_Click(object sender, System.EventArgs e)
@@ -182,8 +227,12 @@ namespace LibrarySystem.FormControl
                 MessageBox.Show("Please select a data row to update!");
                 return;
             }
+<<<<<<< HEAD
             if (!ValidateForm())
                 return;
+=======
+
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
             var penalty = new PenaltyDTO
             {
                 ID = selectedID,
@@ -202,8 +251,17 @@ namespace LibrarySystem.FormControl
 
         private void btInsertReader_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (!ValidateForm())
                 return; 
+=======
+            if (string.IsNullOrWhiteSpace(txtFineAmount.Text) ||
+                 string.IsNullOrWhiteSpace(txtDays.Text))
+            {
+                MessageBox.Show("Please fill in all required fields.");
+                return;
+            }
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
             var penalty = new PenaltyDTO
             {
                 HistoryBorrowID = (int)cbHistory.SelectedValue,

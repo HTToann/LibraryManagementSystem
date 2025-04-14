@@ -15,7 +15,11 @@ namespace DataLayer
                             SELECT u.*, r.roleName 
                             FROM [User] u
                             JOIN UserRole r ON u.roleID = r.roleID
+<<<<<<< HEAD
                             WHERE u.username=@username COLLATE SQL_Latin1_General_CP1_CS_AS" // Xóa Collate để không còn phân biệt chữ hoa và thường nữa
+=======
+                            WHERE u.username=@username"
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
                 ;
                 var cmd = new SqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@username", username);
@@ -30,12 +34,16 @@ namespace DataLayer
                             FirstName = reader["firstName"].ToString(),
                             LastName = reader["lastName"].ToString(),
                             Username = reader["username"].ToString(),
+<<<<<<< HEAD
                             Password=reader["password"].ToString(),
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
                             Gmail = reader["gmail"].ToString(),
                             Address = reader["address"].ToString(),
                             Phone = reader["phone"].ToString(),
                             RoleID = (int)reader["roleID"],
                             RoleName = reader["roleName"].ToString() // 👉 lấy tên vai trò
+<<<<<<< HEAD
                         };
                     }
                 }
@@ -72,6 +80,8 @@ namespace DataLayer
                             Phone = reader["phone"].ToString(),
                             RoleID = (int)reader["roleID"],
                             RoleName = reader["roleName"].ToString() // 👉 lấy tên vai trò
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
                         };
                     }
                 }

@@ -13,7 +13,11 @@ namespace LibrarySystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Application.Run(new LoginFrom());
+=======
+            Application.Run(new MainForm());
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
         }
     }
 }

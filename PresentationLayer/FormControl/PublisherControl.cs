@@ -4,20 +4,27 @@ using System.Drawing;
 using System.Windows.Forms;
 using BusinessLayer;
 using DTOs;
+<<<<<<< HEAD
 using Guna.UI2.WinForms;
 
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 namespace LibrarySystem.FormControl
 {
     public partial class PublisherControl : UserControl
     {
         private PublisherService _service = new PublisherService();
         private int selectedPublisherID = -1;
+<<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
         public PublisherControl()
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
         private void InitDataGridView()
         {
             // ❌ Không cho người dùng thao tác
@@ -106,6 +113,8 @@ namespace LibrarySystem.FormControl
             if (!this.Controls.Contains(dgv))
                 this.Controls.Add(dgv);
         }
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
         private void LoadReaderData()
         {
             dgv.DataSource = null;
@@ -113,6 +122,7 @@ namespace LibrarySystem.FormControl
             dgv.DataSource = _service.GetAllPublishers();
         }
 
+<<<<<<< HEAD
         private bool ValidateForm()
         {
             if (string.IsNullOrWhiteSpace(txtName.Text) ||
@@ -139,6 +149,36 @@ namespace LibrarySystem.FormControl
             return true;
         }
 
+=======
+        private void BeautyDGV()
+        {
+            // Không cho người dùng chỉnh cột
+            dgv.AllowUserToResizeColumns = false;
+            dgv.AllowUserToResizeRows = false;
+            // Không cho thêm dòng mới
+            dgv.AllowUserToAddRows = false;
+            // Tự động resize
+            dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgv.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            // Chỉnh header đẹp
+            dgv.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 10, FontStyle.Bold);
+            dgv.ColumnHeadersDefaultCellStyle.BackColor = Color.LightSteelBlue;
+            dgv.ColumnHeadersDefaultCellStyle.ForeColor = Color.Black;
+            dgv.EnableHeadersVisualStyles = false;
+
+            // Chỉnh cell
+            dgv.DefaultCellStyle.Font = new Font("Segoe UI", 10);
+            dgv.DefaultCellStyle.ForeColor = Color.Black;
+            dgv.DefaultCellStyle.BackColor = Color.White;
+            dgv.DefaultCellStyle.SelectionBackColor = Color.LightSkyBlue;
+            dgv.DefaultCellStyle.SelectionForeColor = Color.Black;
+
+            // Canh giữa cho header
+            dgv.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            // Canh lề trái cho cell
+            dgv.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
+        }
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
         private void ResetForm()
         {
             txtName.Text = "";
@@ -150,15 +190,42 @@ namespace LibrarySystem.FormControl
 
         private void PublisherControl_Load(object sender, System.EventArgs e)
         {
+<<<<<<< HEAD
             InitDataGridView();
+=======
+            BeautyDGV();
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
             LoadReaderData();
         }
 
         private void btInsert_Click(object sender, System.EventArgs e)
         {
             // Kiểm tra rỗng
+<<<<<<< HEAD
             if (!ValidateForm())
                 return;
+=======
+            if (string.IsNullOrWhiteSpace(txtName.Text) ||
+                string.IsNullOrWhiteSpace(txtGmail.Text) ||
+                string.IsNullOrWhiteSpace(txtAddress.Text) ||
+                string.IsNullOrWhiteSpace(txtPhone.Text))
+            {
+                MessageBox.Show("Please fill in all required fields.");
+                return;
+            }
+            // Kiểm tra email hợp lệ (rất cơ bản)
+            if (!txtGmail.Text.Contains("@") || !txtGmail.Text.Contains("."))
+            {
+                MessageBox.Show("Invalid email format.");
+                return;
+            }
+            // Kiểm tra số điện thoại là số và có độ dài hợp lý (VD: 9-11 số)
+            if (!System.Text.RegularExpressions.Regex.IsMatch(txtPhone.Text, @"^\d{9,11}$"))
+            {
+                MessageBox.Show("Phone number must be numeric and 9 to 11 digits long.");
+                return;
+            }
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
             var publish = new PublisherDTO
             {
                 Name = txtName.Text,
@@ -183,8 +250,11 @@ namespace LibrarySystem.FormControl
                 MessageBox.Show("Please select a publish to update!");
                 return;
             }
+<<<<<<< HEAD
             if (!ValidateForm())
                 return;
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 
             var publish = new PublisherDTO
             {
