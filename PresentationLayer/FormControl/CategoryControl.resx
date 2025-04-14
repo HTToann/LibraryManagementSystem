@@ -118,6 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:PresentationLayer/FormControl/CategoryControl.resx
 ========
 <<<<<<< HEAD
@@ -205,12 +206,43 @@
 =======
 <<<<<<< HEAD
 =======
+=======
+<<<<<<<< HEAD:PresentationLayer/LoginForm.resx
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:PresentationLayer/FormControl/UI/BorrowReturnUI.resx
+========
+<<<<<<<< HEAD:PresentationLayer/LoginForm.resx
+========
+  <metadata name="ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AuthorID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BookID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="AuthorName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="BookName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+========
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
   <metadata name="CategoryID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="Namee.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+<<<<<<< HEAD
     <value>True</value>
   </metadata>
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+=======
+>>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4:PresentationLayer/FormControl/CategoryControl.resx
+    <value>True</value>
+  </metadata>
+>>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a:PresentationLayer/FormControl/Book_AuthorControl.resx
+>>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2:PresentationLayer/LoginForm.resx
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 </root>

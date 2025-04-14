@@ -118,6 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:PresentationLayer/FormControl/BorrowReturnBookControl.resx
 ========
 <<<<<<< HEAD
@@ -161,6 +162,15 @@
 =======
 <<<<<<<< HEAD:PresentationLayer/MainForm.resx
 ========
+=======
+<<<<<<<< HEAD:PresentationLayer/MainForm.resx
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:PresentationLayer/MainForm.resx
+========
+========
+>>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4:PresentationLayer/FormControl/BorrowReturnBookControl.resx
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
   <metadata name="ID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -210,7 +220,10 @@
     <value>True</value>
   </metadata>
 >>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a:PresentationLayer/FormControl/BorrowReturnBookControl.resx
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2:PresentationLayer/FormControl/BorrowReturnBookControl.resx
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
 </root>

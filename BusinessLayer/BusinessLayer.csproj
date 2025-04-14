@@ -80,6 +80,7 @@
     <Compile Include="CategoryService.cs" />
     <Compile Include="DetailBorrowReturnBookService.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Gmail\GmailService.cs" />
 =======
 <<<<<<< HEAD
@@ -87,12 +88,15 @@
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
     <Compile Include="HistoryBorrowService.cs" />
     <Compile Include="PenaltyService.cs" />
     <Compile Include="PublisherService.cs" />
     <Compile Include="ReaderService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="StatsService.cs" />
 =======
 <<<<<<< HEAD
@@ -100,6 +104,8 @@
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
     <Compile Include="SupplierService.cs" />
     <Compile Include="UserService.cs" />
   </ItemGroup>

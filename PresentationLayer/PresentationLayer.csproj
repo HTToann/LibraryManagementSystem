@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
@@ -89,6 +90,10 @@
     <Reference Include="System.Core" />
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -99,6 +104,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Reference Include="WindowsBase" />
 =======
 <<<<<<< HEAD
@@ -106,6 +112,8 @@
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FormControl\AuthorControl.cs">
@@ -127,6 +135,7 @@
       <DependentUpon>Book_AuthorControl.cs</DependentUpon>
     </Compile>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
@@ -141,12 +150,15 @@
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
     <Compile Include="FormControl\BorrowReturnBookControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="FormControl\BorrowReturnBookControl.Designer.cs">
       <DependentUpon>BorrowReturnBookControl.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -162,6 +174,8 @@
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
     <Compile Include="FormControl\CategoryControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -240,6 +254,7 @@
       <DependentUpon>Book_AuthorControl.cs</DependentUpon>
     </EmbeddedResource>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
@@ -260,6 +275,11 @@
     </EmbeddedResource>
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+    <EmbeddedResource Include="FormControl\BorrowReturnBookControl.resx">
+      <DependentUpon>BorrowReturnBookControl.cs</DependentUpon>
+    </EmbeddedResource>
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
     <EmbeddedResource Include="FormControl\CategoryControl.resx">
       <DependentUpon>CategoryControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -299,6 +319,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
@@ -314,6 +335,9 @@
     </Compile>
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+    </Compile>
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -324,6 +348,9 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -338,6 +365,7 @@
       <Name>DTOs</Name>
     </ProjectReference>
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <None Include="Static\library.png" />
 =======
@@ -375,6 +403,8 @@
       <Name>DTOs</Name>
     </ProjectReference>
   </ItemGroup>
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

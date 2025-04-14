@@ -64,6 +64,7 @@ namespace LibrarySystem.FormControl
             this.btReset = new System.Windows.Forms.Button();
             this.btDelete = new System.Windows.Forms.Button();
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.btUpdate = new System.Windows.Forms.Button();
             this.btSave = new System.Windows.Forms.Button();
 =======
@@ -71,6 +72,8 @@ namespace LibrarySystem.FormControl
             this.btUpdate = new System.Windows.Forms.Button();
             this.btSave = new System.Windows.Forms.Button();
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.btSave = new System.Windows.Forms.Button();
             this.btUpdate = new System.Windows.Forms.Button();
             this.dgvUsers = new System.Windows.Forms.DataGridView();
@@ -82,8 +85,11 @@ namespace LibrarySystem.FormControl
             this.Address = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Phone = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Role = new System.Windows.Forms.DataGridViewTextBoxColumn();
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.pnQuanLyDG.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -95,17 +101,22 @@ namespace LibrarySystem.FormControl
             this.panel1.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsers)).BeginInit();
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.dgvUsers)).BeginInit();
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.SuspendLayout();
             // 
             // pnQuanLyDG
             // 
             this.pnQuanLyDG.Controls.Add(this.tableLayoutPanel1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -113,6 +124,9 @@ namespace LibrarySystem.FormControl
             this.pnQuanLyDG.Controls.Add(this.dgvUsers);
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+            this.pnQuanLyDG.Controls.Add(this.dgvUsers);
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.pnQuanLyDG.Cursor = System.Windows.Forms.Cursors.Default;
             this.pnQuanLyDG.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnQuanLyDG.Location = new System.Drawing.Point(0, 0);
@@ -133,6 +147,7 @@ namespace LibrarySystem.FormControl
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 285F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1320, 633);
 =======
@@ -144,6 +159,10 @@ namespace LibrarySystem.FormControl
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1320, 385);
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 385F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1320, 385);
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.tableLayoutPanel1.TabIndex = 16;
             // 
             // panel2
@@ -153,6 +172,7 @@ namespace LibrarySystem.FormControl
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.panel2.Size = new System.Drawing.Size(710, 627);
 =======
 <<<<<<< HEAD
@@ -161,6 +181,9 @@ namespace LibrarySystem.FormControl
             this.panel2.Size = new System.Drawing.Size(710, 379);
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+            this.panel2.Size = new System.Drawing.Size(710, 379);
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.panel2.TabIndex = 14;
             // 
             // groupBox8
@@ -172,6 +195,7 @@ namespace LibrarySystem.FormControl
             this.groupBox8.Location = new System.Drawing.Point(0, 0);
             this.groupBox8.Name = "groupBox8";
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.groupBox8.Size = new System.Drawing.Size(710, 627);
             this.groupBox8.TabIndex = 15;
             this.groupBox8.TabStop = false;
@@ -181,16 +205,22 @@ namespace LibrarySystem.FormControl
             this.groupBox8.TabIndex = 15;
             this.groupBox8.TabStop = false;
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.groupBox8.Size = new System.Drawing.Size(710, 379);
             this.groupBox8.TabIndex = 15;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "Information";
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             // 
             // tableLayoutPanel3
             // 
             this.tableLayoutPanel3.ColumnCount = 4;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -202,12 +232,17 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15.625F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.94318F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18.32386F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 31.39205F));
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.tableLayoutPanel3.Controls.Add(this.cbRole, 3, 2);
             this.tableLayoutPanel3.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.txtPassword, 3, 1);
@@ -234,6 +269,7 @@ namespace LibrarySystem.FormControl
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21.00592F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.14793F));
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.tableLayoutPanel3.Size = new System.Drawing.Size(704, 586);
 =======
 <<<<<<< HEAD
@@ -242,6 +278,9 @@ namespace LibrarySystem.FormControl
             this.tableLayoutPanel3.Size = new System.Drawing.Size(704, 338);
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(704, 338);
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.tableLayoutPanel3.TabIndex = 22;
             // 
             // cbRole
@@ -249,6 +288,7 @@ namespace LibrarySystem.FormControl
             this.cbRole.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cbRole.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -261,12 +301,17 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.cbRole.FormattingEnabled = true;
             this.cbRole.Location = new System.Drawing.Point(485, 128);
             this.cbRole.Name = "cbRole";
             this.cbRole.Size = new System.Drawing.Size(216, 43);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.cbRole.TabIndex = 8;
             // 
             // label1
@@ -274,6 +319,7 @@ namespace LibrarySystem.FormControl
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -285,12 +331,17 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.label1.Font = new System.Drawing.Font("Candara", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(103, 24);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.label1.TabIndex = 34;
             this.label1.Text = "First Name";
             // 
@@ -298,6 +349,7 @@ namespace LibrarySystem.FormControl
             // 
             this.txtPassword.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -310,19 +362,25 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.txtPassword.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold);
             this.txtPassword.Location = new System.Drawing.Point(485, 69);
             this.txtPassword.Multiline = true;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(216, 36);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.txtPassword.TabIndex = 7;
             // 
             // txtUsername
             // 
             this.txtUsername.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -335,13 +393,18 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.txtUsername.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold);
             this.txtUsername.Location = new System.Drawing.Point(485, 3);
             this.txtUsername.Multiline = true;
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(216, 36);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.txtUsername.TabIndex = 6;
             // 
             // label7
@@ -349,6 +412,7 @@ namespace LibrarySystem.FormControl
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -360,12 +424,17 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.label7.Font = new System.Drawing.Font("Candara", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(357, 125);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(122, 24);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.label7.TabIndex = 44;
             this.label7.Text = "Role";
             // 
@@ -374,6 +443,7 @@ namespace LibrarySystem.FormControl
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -385,12 +455,17 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.label4.Font = new System.Drawing.Font("Candara", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(3, 66);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(103, 24);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.label4.TabIndex = 38;
             this.label4.Text = "Last Name";
             // 
@@ -399,6 +474,7 @@ namespace LibrarySystem.FormControl
             this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -410,12 +486,17 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.label6.Font = new System.Drawing.Font("Candara", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(3, 125);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(103, 24);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.label6.TabIndex = 39;
             this.label6.Text = "Gmail";
             // 
@@ -424,6 +505,7 @@ namespace LibrarySystem.FormControl
             this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label9.AutoSize = true;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -435,12 +517,17 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.label9.Font = new System.Drawing.Font("Candara", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(3, 182);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(103, 24);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.label9.TabIndex = 31;
             this.label9.Text = "Address";
             // 
@@ -449,6 +536,7 @@ namespace LibrarySystem.FormControl
             this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label8.AutoSize = true;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -460,12 +548,17 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.label8.Font = new System.Drawing.Font("Candara", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(357, 66);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(122, 24);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.label8.TabIndex = 32;
             this.label8.Text = "Password";
             // 
@@ -473,6 +566,7 @@ namespace LibrarySystem.FormControl
             // 
             this.txtPhone.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -485,13 +579,18 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.txtPhone.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold);
             this.txtPhone.Location = new System.Drawing.Point(112, 255);
             this.txtPhone.Multiline = true;
             this.txtPhone.Name = "txtPhone";
             this.txtPhone.Size = new System.Drawing.Size(239, 36);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.txtPhone.TabIndex = 5;
             // 
             // label2
@@ -499,6 +598,7 @@ namespace LibrarySystem.FormControl
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -510,12 +610,17 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.label2.Font = new System.Drawing.Font("Candara", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(357, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(122, 24);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.label2.TabIndex = 33;
             this.label2.Text = "Username";
             // 
@@ -523,6 +628,7 @@ namespace LibrarySystem.FormControl
             // 
             this.txtAddress.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -535,13 +641,18 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.txtAddress.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold);
             this.txtAddress.Location = new System.Drawing.Point(112, 185);
             this.txtAddress.Multiline = true;
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(239, 36);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.txtAddress.TabIndex = 4;
             // 
             // label3
@@ -549,6 +660,7 @@ namespace LibrarySystem.FormControl
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -560,12 +672,17 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.label3.Font = new System.Drawing.Font("Candara", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(3, 252);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(103, 24);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.label3.TabIndex = 30;
             this.label3.Text = "Phone";
             // 
@@ -573,6 +690,7 @@ namespace LibrarySystem.FormControl
             // 
             this.txtGmail.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -585,19 +703,25 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.txtGmail.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold);
             this.txtGmail.Location = new System.Drawing.Point(112, 128);
             this.txtGmail.Multiline = true;
             this.txtGmail.Name = "txtGmail";
             this.txtGmail.Size = new System.Drawing.Size(239, 36);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.txtGmail.TabIndex = 3;
             // 
             // txtFirstName
             // 
             this.txtFirstName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -610,19 +734,25 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.txtFirstName.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold);
             this.txtFirstName.Location = new System.Drawing.Point(112, 3);
             this.txtFirstName.Multiline = true;
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.Size = new System.Drawing.Size(239, 36);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.txtFirstName.TabIndex = 1;
             // 
             // txtLastName
             // 
             this.txtLastName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -635,13 +765,18 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.txtLastName.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold);
             this.txtLastName.Location = new System.Drawing.Point(112, 69);
             this.txtLastName.Multiline = true;
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.Size = new System.Drawing.Size(239, 36);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.txtLastName.TabIndex = 2;
             // 
             // lbSoPhieu
@@ -682,6 +817,7 @@ namespace LibrarySystem.FormControl
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.tableLayoutPanel2.Size = new System.Drawing.Size(598, 627);
 =======
 <<<<<<< HEAD
@@ -690,6 +826,9 @@ namespace LibrarySystem.FormControl
             this.tableLayoutPanel2.Size = new System.Drawing.Size(598, 379);
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(598, 379);
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.tableLayoutPanel2.TabIndex = 11;
             // 
             // panel3
@@ -699,6 +838,7 @@ namespace LibrarySystem.FormControl
             this.panel3.Location = new System.Drawing.Point(3, 3);
             this.panel3.Name = "panel3";
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.panel3.Size = new System.Drawing.Size(592, 307);
 =======
 <<<<<<< HEAD
@@ -707,6 +847,9 @@ namespace LibrarySystem.FormControl
             this.panel3.Size = new System.Drawing.Size(592, 183);
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+            this.panel3.Size = new System.Drawing.Size(592, 183);
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.panel3.TabIndex = 15;
             // 
             // groupBox3
@@ -716,6 +859,7 @@ namespace LibrarySystem.FormControl
             this.groupBox3.Controls.Add(this.rdID);
             this.groupBox3.Controls.Add(this.btSearch);
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -727,12 +871,17 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.groupBox3.Font = new System.Drawing.Font("Candara", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(0, 0);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(592, 183);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.groupBox3.TabIndex = 10;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Search";
@@ -740,6 +889,7 @@ namespace LibrarySystem.FormControl
             // tbKw
             // 
             this.tbKw.Cursor = System.Windows.Forms.Cursors.Arrow;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -751,17 +901,23 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.tbKw.Font = new System.Drawing.Font("Times New Roman", 11F, System.Drawing.FontStyle.Bold);
             this.tbKw.Location = new System.Drawing.Point(26, 113);
             this.tbKw.Name = "tbKw";
             this.tbKw.Size = new System.Drawing.Size(231, 33);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.tbKw.TabIndex = 7;
             // 
             // rdName
             // 
             this.rdName.AutoSize = true;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -774,13 +930,18 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.rdName.Font = new System.Drawing.Font("Candara", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdName.ForeColor = System.Drawing.Color.DodgerBlue;
             this.rdName.Location = new System.Drawing.Point(261, 62);
             this.rdName.Name = "rdName";
             this.rdName.Size = new System.Drawing.Size(120, 28);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.rdName.TabIndex = 0;
             this.rdName.Text = "Username";
             this.rdName.UseVisualStyleBackColor = true;
@@ -789,6 +950,7 @@ namespace LibrarySystem.FormControl
             // 
             this.rdID.AutoSize = true;
             this.rdID.Checked = true;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -801,13 +963,18 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.rdID.Font = new System.Drawing.Font("Candara", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdID.ForeColor = System.Drawing.Color.DodgerBlue;
             this.rdID.Location = new System.Drawing.Point(23, 62);
             this.rdID.Name = "rdID";
             this.rdID.Size = new System.Drawing.Size(53, 28);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.rdID.TabIndex = 0;
             this.rdID.TabStop = true;
             this.rdID.Text = "ID";
@@ -816,6 +983,7 @@ namespace LibrarySystem.FormControl
             // btSearch
             // 
             this.btSearch.BackColor = System.Drawing.Color.DodgerBlue;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -828,13 +996,18 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.btSearch.Font = new System.Drawing.Font("Candara", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btSearch.ForeColor = System.Drawing.SystemColors.Window;
             this.btSearch.Location = new System.Drawing.Point(280, 113);
             this.btSearch.Name = "btSearch";
             this.btSearch.Size = new System.Drawing.Size(111, 36);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.btSearch.TabIndex = 7;
             this.btSearch.Text = "Search";
             this.btSearch.UseVisualStyleBackColor = false;
@@ -844,6 +1017,7 @@ namespace LibrarySystem.FormControl
             // 
             this.panel1.Controls.Add(this.tableLayoutPanel4);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.panel1.Location = new System.Drawing.Point(3, 316);
             this.panel1.Name = "panel1";
@@ -859,6 +1033,11 @@ namespace LibrarySystem.FormControl
             this.panel1.Size = new System.Drawing.Size(592, 184);
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+            this.panel1.Location = new System.Drawing.Point(3, 192);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(592, 184);
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.panel1.TabIndex = 16;
             // 
             // tableLayoutPanel4
@@ -871,6 +1050,7 @@ namespace LibrarySystem.FormControl
             this.tableLayoutPanel4.Controls.Add(this.btReset, 0, 1);
             this.tableLayoutPanel4.Controls.Add(this.btDelete, 2, 0);
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.tableLayoutPanel4.Controls.Add(this.btUpdate, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.btSave, 1, 1);
 =======
@@ -882,12 +1062,17 @@ namespace LibrarySystem.FormControl
             this.tableLayoutPanel4.Controls.Add(this.btUpdate, 1, 0);
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+            this.tableLayoutPanel4.Controls.Add(this.btSave, 1, 1);
+            this.tableLayoutPanel4.Controls.Add(this.btUpdate, 1, 0);
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 2;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.tableLayoutPanel4.Size = new System.Drawing.Size(592, 308);
 =======
@@ -897,12 +1082,16 @@ namespace LibrarySystem.FormControl
             this.tableLayoutPanel4.Size = new System.Drawing.Size(592, 184);
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(592, 184);
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.tableLayoutPanel4.TabIndex = 0;
             // 
             // btInsertReader
             // 
             this.btInsertReader.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.btInsertReader.BackColor = System.Drawing.Color.DodgerBlue;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -915,13 +1104,18 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.btInsertReader.Font = new System.Drawing.Font("Candara", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btInsertReader.ForeColor = System.Drawing.SystemColors.Window;
             this.btInsertReader.Location = new System.Drawing.Point(3, 17);
             this.btInsertReader.Name = "btInsertReader";
             this.btInsertReader.Size = new System.Drawing.Size(191, 58);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.btInsertReader.TabIndex = 13;
             this.btInsertReader.Text = "Insert";
             this.btInsertReader.UseVisualStyleBackColor = false;
@@ -931,6 +1125,7 @@ namespace LibrarySystem.FormControl
             // 
             this.btReset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.btReset.BackColor = System.Drawing.Color.DodgerBlue;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -943,13 +1138,18 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.btReset.Font = new System.Drawing.Font("Candara", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btReset.ForeColor = System.Drawing.SystemColors.Window;
             this.btReset.Location = new System.Drawing.Point(3, 110);
             this.btReset.Name = "btReset";
             this.btReset.Size = new System.Drawing.Size(191, 55);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.btReset.TabIndex = 12;
             this.btReset.Text = "Reset";
             this.btReset.UseVisualStyleBackColor = false;
@@ -959,6 +1159,7 @@ namespace LibrarySystem.FormControl
             // 
             this.btDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.btDelete.BackColor = System.Drawing.Color.DodgerBlue;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -971,22 +1172,30 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.btDelete.Font = new System.Drawing.Font("Candara", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btDelete.ForeColor = System.Drawing.SystemColors.Window;
             this.btDelete.Location = new System.Drawing.Point(397, 18);
             this.btDelete.Name = "btDelete";
             this.btDelete.Size = new System.Drawing.Size(192, 56);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.btDelete.TabIndex = 15;
             this.btDelete.Text = "Delete";
             this.btDelete.UseVisualStyleBackColor = false;
             this.btDelete.Click += new System.EventHandler(this.btDelete_Click);
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             // btSave
             // 
             this.btSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
@@ -1000,12 +1209,16 @@ namespace LibrarySystem.FormControl
             this.btSave.Text = "Save";
             this.btSave.UseVisualStyleBackColor = false;
             // 
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             // btUpdate
             // 
             this.btUpdate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.btUpdate.BackColor = System.Drawing.Color.DodgerBlue;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1018,18 +1231,24 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.btUpdate.Font = new System.Drawing.Font("Candara", 8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btUpdate.ForeColor = System.Drawing.SystemColors.Window;
             this.btUpdate.Location = new System.Drawing.Point(200, 17);
             this.btUpdate.Name = "btUpdate";
             this.btUpdate.Size = new System.Drawing.Size(191, 58);
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.btUpdate.TabIndex = 14;
             this.btUpdate.Text = "Update";
             this.btUpdate.UseVisualStyleBackColor = false;
             this.btUpdate.Click += new System.EventHandler(this.btUpdate_Click);
             // 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -1049,6 +1268,8 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             // dgvUsers
             // 
             this.dgvUsers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -1143,8 +1364,11 @@ namespace LibrarySystem.FormControl
             this.Role.Name = "Role";
             this.Role.ReadOnly = true;
             this.Role.Width = 150;
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             // 
             // StaffControl
             // 
@@ -1167,12 +1391,16 @@ namespace LibrarySystem.FormControl
             this.panel1.ResumeLayout(false);
             this.tableLayoutPanel4.ResumeLayout(false);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsers)).EndInit();
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+            ((System.ComponentModel.ISupportInitialize)(this.dgvUsers)).EndInit();
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             this.ResumeLayout(false);
 
         }
@@ -1181,9 +1409,12 @@ namespace LibrarySystem.FormControl
 
         private System.Windows.Forms.Panel pnQuanLyDG;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private System.Windows.Forms.DataGridView dgvUsers;
         private System.Windows.Forms.DataGridViewTextBoxColumn UserID;
         private System.Windows.Forms.DataGridViewTextBoxColumn FirstName;
@@ -1193,8 +1424,11 @@ namespace LibrarySystem.FormControl
         private System.Windows.Forms.DataGridViewTextBoxColumn Address;
         private System.Windows.Forms.DataGridViewTextBoxColumn Phone;
         private System.Windows.Forms.DataGridViewTextBoxColumn Role;
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.GroupBox groupBox3;

@@ -5,6 +5,7 @@ using System.Windows.Forms;
 using BusinessLayer;
 using DTOs;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Guna.UI2.WinForms;
 
 =======
@@ -14,6 +15,8 @@ using Guna.UI2.WinForms;
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 namespace LibrarySystem.FormControl
 {
     public partial class PenaltyControl : UserControl
@@ -22,6 +25,7 @@ namespace LibrarySystem.FormControl
         private PenaltyService _service = new PenaltyService();
         private int selectedID = -1;
 <<<<<<< HEAD
+<<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 
 =======
@@ -31,6 +35,8 @@ namespace LibrarySystem.FormControl
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         public PenaltyControl()
         {
             InitializeComponent();
@@ -41,6 +47,7 @@ namespace LibrarySystem.FormControl
             dgv.AutoGenerateColumns = false;
             dgv.DataSource = _service.GetAllPenalties();
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -170,6 +177,8 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 
         private void BeautyDGV()
         {
@@ -202,8 +211,11 @@ namespace LibrarySystem.FormControl
         private void ResetForm()
         {
         }
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private void LoadComboboxs()
         {
             var statusList = new List<KeyValuePair<string, int>>()
@@ -230,6 +242,7 @@ namespace LibrarySystem.FormControl
             LoadData();
             LoadComboboxs();
 <<<<<<< HEAD
+<<<<<<< HEAD
             InitDataGridView();
 =======
 <<<<<<< HEAD
@@ -238,6 +251,9 @@ namespace LibrarySystem.FormControl
             BeautyDGV();
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+            BeautyDGV();
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         }
 
         private void btUpdate_Click(object sender, System.EventArgs e)
@@ -248,6 +264,7 @@ namespace LibrarySystem.FormControl
                 return;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!ValidateForm())
                 return;
 =======
@@ -258,6 +275,9 @@ namespace LibrarySystem.FormControl
 
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             var penalty = new PenaltyDTO
             {
                 ID = selectedID,
@@ -277,6 +297,7 @@ namespace LibrarySystem.FormControl
         private void btInsertReader_Click(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!ValidateForm())
                 return; 
 =======
@@ -284,14 +305,19 @@ namespace LibrarySystem.FormControl
             if (!ValidateForm())
                 return; 
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             if (string.IsNullOrWhiteSpace(txtFineAmount.Text) ||
                  string.IsNullOrWhiteSpace(txtDays.Text))
             {
                 MessageBox.Show("Please fill in all required fields.");
                 return;
             }
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             var penalty = new PenaltyDTO
             {
                 HistoryBorrowID = (int)cbHistory.SelectedValue,

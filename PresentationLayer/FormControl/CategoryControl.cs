@@ -5,6 +5,7 @@ using System.Windows.Forms;
 using BusinessLayer;
 using DTOs;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Guna.UI2.WinForms;
 
 =======
@@ -14,6 +15,8 @@ using Guna.UI2.WinForms;
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 namespace LibrarySystem.FormControl
 {
     public partial class CategoryControl : UserControl
@@ -21,6 +24,7 @@ namespace LibrarySystem.FormControl
         private CategoryService _service = new CategoryService();
         private int selectedCategoryID = -1;
 <<<<<<< HEAD
+<<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 
 =======
@@ -30,10 +34,13 @@ namespace LibrarySystem.FormControl
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         public CategoryControl()
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -112,6 +119,8 @@ namespace LibrarySystem.FormControl
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private void LoadData()
         {
             dgv.DataSource = null;
@@ -120,11 +129,14 @@ namespace LibrarySystem.FormControl
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private void BeautyDGV()
         {
             // Không cho người dùng chỉnh cột
@@ -153,8 +165,11 @@ namespace LibrarySystem.FormControl
             // Canh lề trái cho cell
             dgv.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
         }
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private void ResetForm()
         {
             txtName.Text = "";
@@ -163,6 +178,7 @@ namespace LibrarySystem.FormControl
         private void CategoryControl_Load(object sender, System.EventArgs e)
         {
             LoadData();
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -183,12 +199,16 @@ namespace LibrarySystem.FormControl
             BeautyDGV();
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+            BeautyDGV();
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         }
 
         private void btInsert_Click(object sender, EventArgs e)
         {
             // Kiểm tra rỗng
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!ValidateForm())
                 return;
 =======
@@ -196,13 +216,18 @@ namespace LibrarySystem.FormControl
             if (!ValidateForm())
                 return;
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             if (string.IsNullOrWhiteSpace(txtName.Text))
             {
                 MessageBox.Show("Please fill in all required fields.");
                 return;
             }
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 
             var category = new CategoryDTO
             {
@@ -226,6 +251,7 @@ namespace LibrarySystem.FormControl
                 return;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!ValidateForm())
                 return;
 
@@ -237,6 +263,8 @@ namespace LibrarySystem.FormControl
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 
             var category = new CategoryDTO
             {

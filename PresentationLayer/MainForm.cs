@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
@@ -17,18 +18,24 @@ using System.Collections.Generic;
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 ﻿using LibrarySystem.FormControl;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 
 namespace LibrarySystem
 {
     public partial class MainForm : Form
     {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -201,6 +208,8 @@ namespace LibrarySystem
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private Panel panelSidebar;
         private Panel panelHeader;
         private Panel panelMain;
@@ -267,14 +276,18 @@ namespace LibrarySystem
             };
 
             // Main panel
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             panelMain = new Panel
             {
                 Dock = DockStyle.Fill,
                 BackColor = Color.White
             };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -395,6 +408,8 @@ namespace LibrarySystem
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             // ✅ Quan trọng: thêm panelMain TRƯỚC
             this.Controls.Add(panelMain);
             this.Controls.Add(panelSidebar);
@@ -493,8 +508,11 @@ namespace LibrarySystem
                     MessageBox.Show("Chưa xử lý chức năng này!");
                     break;
             }
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         }
     }
 }

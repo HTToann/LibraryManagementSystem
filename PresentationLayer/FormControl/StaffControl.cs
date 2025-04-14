@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿// Optimized and validated version of StaffControl.cs
 using BusinessLayer;
 =======
@@ -9,11 +10,15 @@ using BusinessLayer;
 ﻿using BusinessLayer;
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+﻿using BusinessLayer;
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 using DTOs;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
+<<<<<<< HEAD
 <<<<<<< HEAD
 using Guna.UI2.WinForms;
 
@@ -24,12 +29,15 @@ using Guna.UI2.WinForms;
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 namespace LibrarySystem.FormControl
 {
     public partial class StaffControl : UserControl
     {
         private UserService _service = new UserService();
         private int selectedUserID = -1;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -159,6 +167,8 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         public StaffControl()
         {
             InitializeComponent();
@@ -192,8 +202,11 @@ namespace LibrarySystem.FormControl
             // Canh lề trái cho cell
             dgvUsers.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
         }
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private void LoadUsersData()
         {
             dgvUsers.DataSource = null;
@@ -201,6 +214,7 @@ namespace LibrarySystem.FormControl
             dgvUsers.DataSource = _service.GetAllUsers();
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -208,12 +222,15 @@ namespace LibrarySystem.FormControl
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private void LoadRolesCombobox()
         {
             cbRole.DataSource = _service.GellAllRoles();
             cbRole.DisplayMember = "RoleName";
             cbRole.ValueMember = "RoleId";
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -231,6 +248,8 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private void ResetForm()
         {
             txtFirstName.Text = "";
@@ -240,12 +259,16 @@ namespace LibrarySystem.FormControl
             txtGmail.Text = "";
             txtAddress.Text = "";
             txtPhone.Text = "";
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             cbRole.SelectedIndex = 0;
             selectedUserID = -1;
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -260,6 +283,8 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private void StaffControl_Load(object sender, EventArgs e)
         {
             BeautyDGV();
@@ -275,12 +300,16 @@ namespace LibrarySystem.FormControl
                 string.IsNullOrWhiteSpace(txtLastName.Text) ||
                 string.IsNullOrWhiteSpace(txtUsername.Text) ||
                 string.IsNullOrWhiteSpace(txtPassword.Text) ||
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
                 string.IsNullOrWhiteSpace(txtGmail.Text) ||
                 string.IsNullOrWhiteSpace(txtAddress.Text) ||
                 string.IsNullOrWhiteSpace(txtPhone.Text))
             {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -320,6 +349,8 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
                 MessageBox.Show("Please fill in all required fields.");
                 return;
             }
@@ -340,8 +371,11 @@ namespace LibrarySystem.FormControl
                 MessageBox.Show("Phone number must be numeric and 9 to 11 digits long.");
                 return;
             }
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             var user = new UserDTO
             {
                 FirstName = txtFirstName.Text,
@@ -354,6 +388,7 @@ namespace LibrarySystem.FormControl
                 RoleID = (int)cbRole.SelectedValue
             };
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
@@ -361,10 +396,13 @@ namespace LibrarySystem.FormControl
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             if (_service.Register(user))
             {
                 MessageBox.Show("User has been added successfully!");
                 LoadUsersData();
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -378,12 +416,17 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             }
             else
                 MessageBox.Show("Failed! Username already exists.");
             ResetForm();
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         }
 
         private void btUpdate_Click(object sender, EventArgs e)
@@ -394,6 +437,7 @@ namespace LibrarySystem.FormControl
                 return;
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -409,6 +453,8 @@ namespace LibrarySystem.FormControl
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             var user = new UserDTO
             {
                 UserID = selectedUserID,
@@ -423,6 +469,7 @@ namespace LibrarySystem.FormControl
 
             var success = _service.UpdateUser(user);
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
@@ -433,13 +480,18 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             MessageBox.Show(success ? "Update succesfully!! ": "Failled!");
             LoadUsersData();
             ResetForm();
         }
  
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 
         private void btDelete_Click(object sender, EventArgs e)
         {
@@ -454,6 +506,7 @@ namespace LibrarySystem.FormControl
             {
                 var success = _service.DeleteUser(selectedUserID);
 <<<<<<< HEAD
+<<<<<<< HEAD
                 MessageBox.Show(success ? "Delete successful" : "Delete failed");
 =======
 <<<<<<< HEAD
@@ -462,6 +515,9 @@ namespace LibrarySystem.FormControl
                 MessageBox.Show(success ? "Delete successfull" : "Delete failed");
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+                MessageBox.Show(success ? "Delete successfull" : "Delete failed");
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
                 LoadUsersData();
                 ResetForm();
             }
@@ -478,18 +534,23 @@ namespace LibrarySystem.FormControl
             {
                 DataGridViewRow row = dgvUsers.Rows[e.RowIndex];
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
                 txtFirstName.Text = row.Cells["FirstName"].Value.ToString();
                 txtLastName.Text = row.Cells["LastName"].Value.ToString();
                 txtUsername.Text = row.Cells["Username"].Value.ToString();
                 txtGmail.Text = row.Cells["Gmail"].Value.ToString();
                 txtAddress.Text = row.Cells["Address"].Value.ToString();
                 txtPhone.Text = row.Cells["Phone"].Value.ToString();
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -506,6 +567,8 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
                 cbRole.Text = row.Cells["Role"].Value.ToString();
 
                 // Lưu ID để sử dụng khi update/delete
@@ -515,12 +578,16 @@ namespace LibrarySystem.FormControl
         private void btSearch_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(tbKw.Text))
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             {
                 MessageBox.Show("Keyword cannot be empty!");
                 return;
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -539,6 +606,11 @@ namespace LibrarySystem.FormControl
                 if (!int.TryParse(tbKw.Text, out int userId))
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+            if (rdID.Checked)
+            {
+                if (!int.TryParse(tbKw.Text, out int userId))
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
                 {
                     MessageBox.Show("User ID must be a number!");
                     return;
@@ -551,6 +623,7 @@ namespace LibrarySystem.FormControl
                     return;
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -559,10 +632,16 @@ namespace LibrarySystem.FormControl
                 dgvUsers.DataSource = null;
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+
+                tbKw.Text = "";
+                dgvUsers.DataSource = null;
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
                 dgvUsers.DataSource = new List<UserDTO> { user };
             }
             else if (rdName.Checked)
             {
+<<<<<<< HEAD
 <<<<<<< HEAD
                 var user = _service.GetUserByUsername(keyword);
 =======
@@ -572,11 +651,15 @@ namespace LibrarySystem.FormControl
                 var user = _service.GetUserByUsername(tbKw.Text);
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+                var user = _service.GetUserByUsername(tbKw.Text);
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
                 if (user == null)
                 {
                     MessageBox.Show("User not found!");
                     return;
                 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -585,11 +668,16 @@ namespace LibrarySystem.FormControl
                 dgvUsers.DataSource = null;
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+                tbKw.Text = "";
+                dgvUsers.DataSource = null;
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
                 dgvUsers.DataSource = new List<UserDTO> { user };
             }
             else
             {
                 MessageBox.Show("Please select search type: ID or Username.");
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -607,5 +695,10 @@ namespace LibrarySystem.FormControl
 
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+            }
+        }
+
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
     }
 }

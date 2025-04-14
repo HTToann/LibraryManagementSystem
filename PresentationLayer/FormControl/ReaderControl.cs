@@ -1,6 +1,7 @@
 ﻿using BusinessLayer;
 using DTOs;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Guna.UI2.WinForms;
 =======
 <<<<<<< HEAD
@@ -8,6 +9,8 @@ using Guna.UI2.WinForms;
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -19,6 +22,7 @@ namespace LibrarySystem.FormControl
         private ReaderService _service = new ReaderService();
         private int selectedReaderID = -1;
 <<<<<<< HEAD
+<<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 =======
 <<<<<<< HEAD
@@ -26,11 +30,14 @@ namespace LibrarySystem.FormControl
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 
         public ReaderControl()
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -146,6 +153,8 @@ namespace LibrarySystem.FormControl
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 
         private void LoadReaderData()
         {
@@ -157,6 +166,7 @@ namespace LibrarySystem.FormControl
         {
             cbGender.DataSource = new List<string> { "Male", "Female" };
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -197,6 +207,8 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private void BeautyDGV()
         {
             // Không cho người dùng chỉnh cột
@@ -232,8 +244,11 @@ namespace LibrarySystem.FormControl
             txtGmail.Text = "";
             txtAddress.Text = "";
             txtPhone.Text = "";
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             cbGender.SelectedIndex = 0;
             dptDate.Value = DateTime.Today;
             selectedReaderID = -1;
@@ -243,6 +258,7 @@ namespace LibrarySystem.FormControl
         {
             LoadGenderCombobox();
 <<<<<<< HEAD
+<<<<<<< HEAD
             InitDataGridView();
 =======
 <<<<<<< HEAD
@@ -251,6 +267,9 @@ namespace LibrarySystem.FormControl
             BeautyDGV();
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+            BeautyDGV();
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             LoadReaderData();
             dptDate.Value = DateTime.Today;
 
@@ -259,11 +278,14 @@ namespace LibrarySystem.FormControl
         private void btInsert_Click(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!ValidateForm()) return;
 =======
 <<<<<<< HEAD
             if (!ValidateForm()) return;
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             // Kiểm tra rỗng
             if (string.IsNullOrWhiteSpace(txtFirstName.Text) ||
                 string.IsNullOrWhiteSpace(txtLastName.Text) ||
@@ -286,8 +308,11 @@ namespace LibrarySystem.FormControl
                 MessageBox.Show("Phone number must be numeric and 9 to 11 digits long.");
                 return;
             }
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             var reader = new ReaderDTO
             {
                 FirstName = txtFirstName.Text,
@@ -317,6 +342,7 @@ namespace LibrarySystem.FormControl
                 return;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!ValidateForm()) return;
 =======
 <<<<<<< HEAD
@@ -325,6 +351,9 @@ namespace LibrarySystem.FormControl
 
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             var reader = new ReaderDTO
             {
                 ReaderID = selectedReaderID,

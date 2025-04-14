@@ -5,6 +5,7 @@ using System.Windows.Forms;
 using BusinessLayer;
 using DTOs;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Guna.UI2.WinForms;
 
 =======
@@ -14,6 +15,8 @@ using Guna.UI2.WinForms;
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 namespace LibrarySystem.FormControl
 {
     public partial class SupplierControl : UserControl
@@ -21,6 +24,7 @@ namespace LibrarySystem.FormControl
         private SupplierService _service = new SupplierService();
         private int selectedSupplierID = -1;
 <<<<<<< HEAD
+<<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 =======
 <<<<<<< HEAD
@@ -28,10 +32,13 @@ namespace LibrarySystem.FormControl
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         public SupplierControl()
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -126,6 +133,8 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private void BeautyDGV()
         {
             // Không cho người dùng chỉnh cột
@@ -154,8 +163,11 @@ namespace LibrarySystem.FormControl
             // Canh lề trái cho cell
             dgv.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
         }
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private void LoadData()
         {
             dgv.DataSource = null;
@@ -164,6 +176,7 @@ namespace LibrarySystem.FormControl
         }
         private void ResetForm()
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -181,6 +194,8 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             txtName.Text = "";
             txtGmail.Text = "";
             txtAddress.Text = "";
@@ -190,13 +205,17 @@ namespace LibrarySystem.FormControl
         private void btInsert_Click(object sender, System.EventArgs e)
         {
             // Kiểm tra rỗng
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             if (string.IsNullOrWhiteSpace(txtName.Text) ||
                 string.IsNullOrWhiteSpace(txtGmail.Text) ||
                 string.IsNullOrWhiteSpace(txtAddress.Text) ||
                 string.IsNullOrWhiteSpace(txtPhone.Text))
             {
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -227,6 +246,8 @@ namespace LibrarySystem.FormControl
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
                 MessageBox.Show("Please fill in all required fields.");
                 return;
             }
@@ -241,8 +262,11 @@ namespace LibrarySystem.FormControl
             if (!System.Text.RegularExpressions.Regex.IsMatch(txtPhone.Text, @"^\d{9,11}$"))
             {
                 MessageBox.Show("Phone number must be numeric and 9 to 11 digits long.");
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
                 return;
             }
             var supplier = new SupplierDTO
@@ -266,6 +290,7 @@ namespace LibrarySystem.FormControl
         private void SupplierControl_Load(object sender, System.EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             InitDataGridView();
 =======
 <<<<<<< HEAD
@@ -274,6 +299,9 @@ namespace LibrarySystem.FormControl
             BeautyDGV();
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+            BeautyDGV();
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             LoadData();
         }
 
@@ -285,6 +313,7 @@ namespace LibrarySystem.FormControl
                 return;
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -299,6 +328,8 @@ namespace LibrarySystem.FormControl
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             var supplier = new SupplierDTO
             {
                 SupplierID = selectedSupplierID,
@@ -321,6 +352,7 @@ namespace LibrarySystem.FormControl
                 DataGridViewRow row = dgv.Rows[e.RowIndex];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 txtName.Text = row.Cells["Namee"].Value.ToString();
 =======
 <<<<<<< HEAD
@@ -329,6 +361,9 @@ namespace LibrarySystem.FormControl
                 txtName.Text = row.Cells["Name"].Value.ToString();
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+                txtName.Text = row.Cells["Name"].Value.ToString();
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
                 txtGmail.Text = row.Cells["Gmail"].Value.ToString();
                 txtAddress.Text = row.Cells["Address"].Value.ToString();
                 txtPhone.Text = row.Cells["Phone"].Value.ToString();
@@ -364,6 +399,7 @@ namespace LibrarySystem.FormControl
         private void btSearch_Click(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             string keyword = tbKw.Text.Trim();
             if (string.IsNullOrWhiteSpace(keyword))
 =======
@@ -374,10 +410,14 @@ namespace LibrarySystem.FormControl
             if (string.IsNullOrWhiteSpace(tbKw.Text))
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+            if (string.IsNullOrWhiteSpace(tbKw.Text))
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             {
                 MessageBox.Show("Keyword cannot be empty!");
                 return;
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -394,11 +434,17 @@ namespace LibrarySystem.FormControl
                 if (!int.TryParse(tbKw.Text, out int supllierId))
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+            if (rdID.Checked)
+            {
+                if (!int.TryParse(tbKw.Text, out int supllierId))
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
                 {
                     MessageBox.Show("Supplier ID must be a number!");
                     return;
                 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
                 var supplier = _service.GetSupplierById(supplierId);
 =======
@@ -408,6 +454,9 @@ namespace LibrarySystem.FormControl
                 var supplier = _service.GetSupplierById(supllierId);
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+                var supplier = _service.GetSupplierById(supllierId);
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
                 if (supplier == null)
                 {
                     MessageBox.Show("Supplier not found!");
@@ -416,17 +465,22 @@ namespace LibrarySystem.FormControl
 
                 tbKw.Text = "";
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
                 dgv.DataSource = null;
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+                dgv.DataSource = null;
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
                 dgv.DataSource = new List<SupplierDTO> { supplier };
             }
             else if (rdName.Checked)
             {
                 var supplier = _service.GetSupplierByName(tbKw.Text);
+<<<<<<< HEAD
 <<<<<<< HEAD
                 if (supplier == null )
 =======
@@ -436,10 +490,14 @@ namespace LibrarySystem.FormControl
                 if (supplier == null)
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+                if (supplier == null)
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
                 {
                     MessageBox.Show("Supplier not found!");
                     return;
                 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -448,12 +506,17 @@ namespace LibrarySystem.FormControl
                 dgv.DataSource = null;
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+                tbKw.Text = "";
+                dgv.DataSource = null;
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
                 dgv.DataSource = supplier;
             }
             else
             {
                 MessageBox.Show("Please select search type: ID or Name.");
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
             tbKw.Clear();
 =======
@@ -462,6 +525,8 @@ namespace LibrarySystem.FormControl
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         }
     }
     }

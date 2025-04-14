@@ -5,6 +5,7 @@ using System.Windows.Forms;
 using BusinessLayer;
 using DTOs;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using Guna.UI2.WinForms;
 
 =======
@@ -14,6 +15,8 @@ using Guna.UI2.WinForms;
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 namespace LibrarySystem.FormControl
 {
     public partial class DetailBorrowReturnBookControl : UserControl
@@ -22,6 +25,7 @@ namespace LibrarySystem.FormControl
         private BorrowReturnBookService _borrowReturnBookService = new BorrowReturnBookService();
         private BookService _bookService = new BookService();
 <<<<<<< HEAD
+<<<<<<< HEAD
         private Guna2DataGridView dgv = new Guna2DataGridView();
 
 =======
@@ -31,12 +35,15 @@ namespace LibrarySystem.FormControl
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private int selectedID = -1;
 
         public DetailBorrowReturnBookControl()
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -133,6 +140,8 @@ namespace LibrarySystem.FormControl
 =======
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 
         private void LoadData()
         {
@@ -142,9 +151,12 @@ namespace LibrarySystem.FormControl
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private void BeautyDGV()
         {
             // Không cho người dùng chỉnh cột
@@ -173,8 +185,11 @@ namespace LibrarySystem.FormControl
             // Canh lề trái cho cell
             dgv.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
         }
+<<<<<<< HEAD
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private void ResetForm()
         {
                 txtCount.Text = "";
@@ -200,6 +215,7 @@ namespace LibrarySystem.FormControl
             LoadData();
             LoadComboboxs();
 <<<<<<< HEAD
+<<<<<<< HEAD
             InitDataGridView();
 =======
 <<<<<<< HEAD
@@ -208,6 +224,9 @@ namespace LibrarySystem.FormControl
             BeautyDGV();
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+            BeautyDGV();
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         }
 
         private void dgv_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -223,6 +242,7 @@ namespace LibrarySystem.FormControl
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         private bool ValidateForm()
 =======
 <<<<<<< HEAD
@@ -232,10 +252,15 @@ namespace LibrarySystem.FormControl
         private void btInsert_Click(object sender, EventArgs e)
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+
+        private void btInsert_Click(object sender, EventArgs e)
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         {
             if (string.IsNullOrWhiteSpace(txtCount.Text))
             {
                 MessageBox.Show("Please fill in all required fields.");
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -255,6 +280,10 @@ namespace LibrarySystem.FormControl
             }
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+                return;
+            }
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 
             var detail = new DetailBorrowReturnBookDTO
             {
@@ -280,6 +309,7 @@ namespace LibrarySystem.FormControl
                 return;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
             if (!ValidateForm())
                 return;
 =======
@@ -290,6 +320,9 @@ namespace LibrarySystem.FormControl
 
 >>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
 >>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             var detail = new DetailBorrowReturnBookDTO
             {
                 ID= selectedID,
