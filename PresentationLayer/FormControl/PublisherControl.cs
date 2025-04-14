@@ -4,16 +4,142 @@ using System.Drawing;
 using System.Windows.Forms;
 using BusinessLayer;
 using DTOs;
+<<<<<<< HEAD
+<<<<<<< HEAD
+using Guna.UI2.WinForms;
+
+=======
+<<<<<<< HEAD
+using Guna.UI2.WinForms;
+
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 namespace LibrarySystem.FormControl
 {
     public partial class PublisherControl : UserControl
     {
         private PublisherService _service = new PublisherService();
         private int selectedPublisherID = -1;
+<<<<<<< HEAD
+<<<<<<< HEAD
+        private Guna2DataGridView dgv = new Guna2DataGridView();
+
+=======
+<<<<<<< HEAD
+        private Guna2DataGridView dgv = new Guna2DataGridView();
+
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         public PublisherControl()
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+        private void InitDataGridView()
+        {
+            // ❌ Không cho người dùng thao tác
+            dgv.AllowUserToAddRows = false;
+            dgv.AllowUserToResizeColumns = false;
+            dgv.AllowUserToResizeRows = false;
+            dgv.ReadOnly = true;
+
+            // ✅ Tự động co giãn
+            dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgv.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+
+            // ✅ Tổng thể
+            dgv.Dock = DockStyle.Bottom; // 👈 Gắn vào đáy Form
+            dgv.Height = 300;            // 👈 Đặt chiều cao nếu muốn
+            dgv.BackgroundColor = Color.White;
+            dgv.BorderStyle = BorderStyle.None;
+            dgv.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dgv.GridColor = Color.LightGray;
+            dgv.EnableHeadersVisualStyles = false;
+
+            // ✅ Header style
+            dgv.ColumnHeadersDefaultCellStyle = new DataGridViewCellStyle
+            {
+                BackColor = Color.FromArgb(72, 133, 237),
+                ForeColor = Color.White,
+                Font = new Font("Segoe UI", 11, FontStyle.Bold),
+                Alignment = DataGridViewContentAlignment.MiddleCenter
+            };
+            dgv.ColumnHeadersHeight = 40;
+
+            // ✅ Cell style
+            dgv.DefaultCellStyle = new DataGridViewCellStyle
+            {
+                BackColor = Color.White,
+                ForeColor = Color.Black,
+                Font = new Font("Segoe UI", 10),
+                SelectionBackColor = Color.FromArgb(0, 120, 215),
+                SelectionForeColor = Color.White,
+                Alignment = DataGridViewContentAlignment.MiddleLeft
+            };
+
+            // ✅ Dòng xen kẽ
+            dgv.AlternatingRowsDefaultCellStyle = new DataGridViewCellStyle
+            {
+                BackColor = Color.FromArgb(245, 249, 255)
+            };
+
+            // ✅ Xóa và tạo lại cột
+            dgv.Columns.Clear();
+
+            dgv.Columns.Add(new DataGridViewTextBoxColumn
+            {
+                HeaderText = "PublisherID",
+                Name = "PublisherID",
+                DataPropertyName = "PublisherID"
+            });
+            dgv.Columns.Add(new DataGridViewTextBoxColumn
+            {
+                HeaderText = "Name",
+                Name = "Namee",
+                DataPropertyName = "Name"
+            });
+            dgv.Columns.Add(new DataGridViewTextBoxColumn
+            {
+                HeaderText = "Gmail",
+                Name = "Gmail",
+                DataPropertyName = "Gmail"
+            });
+            dgv.Columns.Add(new DataGridViewTextBoxColumn
+            {
+                HeaderText = "Address",
+                Name = "Address",
+                DataPropertyName = "Address"
+            });
+            dgv.Columns.Add(new DataGridViewTextBoxColumn
+            {
+                HeaderText = "Phone",
+                Name = "Phone",
+                DataPropertyName = "Phone"
+            });
+
+            dgv.CellClick += dgv_CellClick;
+
+            // ✅ Thêm vào form hoặc container
+            if (!this.Controls.Contains(dgv))
+                this.Controls.Add(dgv);
+        }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private void LoadReaderData()
         {
             dgv.DataSource = null;
@@ -21,6 +147,42 @@ namespace LibrarySystem.FormControl
             dgv.DataSource = _service.GetAllPublishers();
         }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+        private bool ValidateForm()
+        {
+            if (string.IsNullOrWhiteSpace(txtName.Text) ||
+                string.IsNullOrWhiteSpace(txtGmail.Text) ||
+                string.IsNullOrWhiteSpace(txtAddress.Text) ||
+                string.IsNullOrWhiteSpace(txtPhone.Text))
+            {
+                MessageBox.Show("Please fill in all required fields.");
+                return false;
+            }
+
+            if (!txtGmail.Text.Contains("@") || !txtGmail.Text.Contains("."))
+            {
+                MessageBox.Show("Invalid email format.");
+                return false;
+            }
+
+            if (!System.Text.RegularExpressions.Regex.IsMatch(txtPhone.Text, @"^\d{9,11}$"))
+            {
+                MessageBox.Show("Phone number must be numeric and 9 to 11 digits long.");
+                return false;
+            }
+
+            return true;
+        }
+
+<<<<<<< HEAD
+=======
+=======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private void BeautyDGV()
         {
             // Không cho người dùng chỉnh cột
@@ -49,6 +211,11 @@ namespace LibrarySystem.FormControl
             // Canh lề trái cho cell
             dgv.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
         }
+<<<<<<< HEAD
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private void ResetForm()
         {
             txtName.Text = "";
@@ -60,13 +227,36 @@ namespace LibrarySystem.FormControl
 
         private void PublisherControl_Load(object sender, System.EventArgs e)
         {
+<<<<<<< HEAD
+<<<<<<< HEAD
+            InitDataGridView();
+=======
+<<<<<<< HEAD
+            InitDataGridView();
+=======
             BeautyDGV();
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+            BeautyDGV();
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             LoadReaderData();
         }
 
         private void btInsert_Click(object sender, System.EventArgs e)
         {
             // Kiểm tra rỗng
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (!ValidateForm())
+                return;
+=======
+<<<<<<< HEAD
+            if (!ValidateForm())
+                return;
+=======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             if (string.IsNullOrWhiteSpace(txtName.Text) ||
                 string.IsNullOrWhiteSpace(txtGmail.Text) ||
                 string.IsNullOrWhiteSpace(txtAddress.Text) ||
@@ -87,6 +277,11 @@ namespace LibrarySystem.FormControl
                 MessageBox.Show("Phone number must be numeric and 9 to 11 digits long.");
                 return;
             }
+<<<<<<< HEAD
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
             var publish = new PublisherDTO
             {
                 Name = txtName.Text,
@@ -111,6 +306,19 @@ namespace LibrarySystem.FormControl
                 MessageBox.Show("Please select a publish to update!");
                 return;
             }
+<<<<<<< HEAD
+<<<<<<< HEAD
+            if (!ValidateForm())
+                return;
+=======
+<<<<<<< HEAD
+            if (!ValidateForm())
+                return;
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 
             var publish = new PublisherDTO
             {

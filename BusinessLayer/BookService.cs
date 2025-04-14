@@ -35,5 +35,25 @@ namespace BusinessLayer
         {
             return _repo.SearchBookById(id);
         }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+        public void DecreaseStock(int bookId, int count)
+        {
+            _repo.DecreaseStock(bookId, count);
+        }
+        public void IncreaseStock(int bookId, int count)
+        {
+            _repo.IncreaseStock(bookId, count);
+        }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
     }
 }

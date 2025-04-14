@@ -199,5 +199,98 @@ namespace DataLayer
             }
             return list;
         }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+        public int InsertAndGetId(BorrowReturnBookDTO dto)
+        {
+            using (SqlConnection conn = new SqlConnection(DbHelper.ConnectionString))
+            {
+                string query = @"
+                    INSERT INTO BorrowReturnBook (readerID, userID, dateBorrow, dateReturn, statusID)
+                    OUTPUT INSERTED.ID
+                    VALUES (@ReaderID, @UserID, @DateBorrow, @DateReturn, @StatusID)";
+
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@ReaderID", dto.ReaderID);
+                cmd.Parameters.AddWithValue("@UserID", dto.UserID);
+                cmd.Parameters.AddWithValue("@DateBorrow", dto.DateBorrow);
+                cmd.Parameters.AddWithValue("@DateReturn", dto.DateReturn);
+                cmd.Parameters.AddWithValue("@StatusID", dto.StatusID);
+
+                conn.Open();
+                object result = cmd.ExecuteScalar();
+                return result != null ? Convert.ToInt32(result) : -1; // -1 nếu thất bại
+            }
+        }
+        public List<BorrowedBookInfoDTO> GetBorrowedBooksByReader(int readerId)
+        {
+            var result = new List<BorrowedBookInfoDTO>();
+            using (SqlConnection conn = new SqlConnection(DbHelper.ConnectionString))
+            {
+                string query = @"
+            SELECT dbrb.ID AS DetailID,dbrb.count AS Count,b.bookID, b.nameBook, brb.dateBorrow, brb.dateReturn
+            FROM BorrowReturnBook brb
+            INNER JOIN DetailBorrowReturnBook dbrb ON brb.ID = dbrb.borrowReturnBookID
+            INNER JOIN Book b ON dbrb.bookID = b.bookID
+            WHERE brb.readerID = @ReaderID AND brb.statusID = (
+                SELECT statusID FROM BorrowStatus WHERE statusName = 'Borrowing'
+            )";
+
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@ReaderID", readerId);
+                conn.Open();
+
+                var reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    DateTime due = Convert.ToDateTime(reader["dateReturn"]);
+                    int overdue = (DateTime.Today > due) ? (DateTime.Today - due).Days : 0;
+                    decimal fine = overdue * 3000; // ví dụ phạt 3k/ngày
+
+                    result.Add(new BorrowedBookInfoDTO
+                    {
+                        DetailID = (int)reader["DetailID"],
+                        BookID=(int)reader["bookID"],
+                        Count=(int)reader["Count"],
+                        BookName = reader["nameBook"].ToString(),
+                        DateBorrow = Convert.ToDateTime(reader["dateBorrow"]),
+                        DateReturn = due,
+                        OverdueDays = overdue,
+                        FineAmount = fine
+                    });
+                }
+            }
+
+            return result;
+        }
+         public void MarkAsReturnedByDetailIDs(List<int> detailIds)
+        {
+            using (SqlConnection conn = new SqlConnection(DbHelper.ConnectionString))
+            {
+                conn.Open();
+
+                string query = @"UPDATE BorrowReturnBook
+                                 SET statusID = 2
+                                 WHERE ID IN (
+                                     SELECT DISTINCT borrowReturnBookID
+                                     FROM DetailBorrowReturnBook
+                                     WHERE ID IN ({0})
+                                 )";
+
+                string ids = string.Join(",", detailIds);
+                SqlCommand cmd = new SqlCommand(string.Format(query, ids), conn);
+                cmd.ExecuteNonQuery();
+            }
+        }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
     }
 }

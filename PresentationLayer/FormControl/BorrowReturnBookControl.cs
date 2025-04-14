@@ -4,6 +4,19 @@ using System.Drawing;
 using System.Windows.Forms;
 using BusinessLayer;
 using DTOs;
+<<<<<<< HEAD
+<<<<<<< HEAD
+using Guna.UI2.WinForms;
+
+=======
+<<<<<<< HEAD
+using Guna.UI2.WinForms;
+
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
 namespace LibrarySystem.FormControl
 {
     public partial class BorrowReturnBookControl : UserControl
@@ -11,12 +24,142 @@ namespace LibrarySystem.FormControl
         private BorrowReturnBookService _service = new BorrowReturnBookService();
         private UserService _userService = new UserService();
         private ReaderService __readerService = new ReaderService();
+<<<<<<< HEAD
+<<<<<<< HEAD
+        private Guna2DataGridView dgv = new Guna2DataGridView();
+
+=======
+<<<<<<< HEAD
+        private Guna2DataGridView dgv = new Guna2DataGridView();
+
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private int selectedID = -1;
         public BorrowReturnBookControl()
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+        private void InitDataGridView()
+        {
+            // ❌ Không cho người dùng thao tác
+            dgv.AllowUserToAddRows = false;
+            dgv.AllowUserToResizeColumns = false;
+            dgv.AllowUserToResizeRows = false;
+            dgv.ReadOnly = true;
 
+            // ✅ Tự động co giãn
+            dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgv.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+
+            // ✅ Tổng thể
+            dgv.Dock = DockStyle.Bottom; // 👈 Gắn vào đáy Form
+            dgv.Height = 300;            // 👈 Đặt chiều cao nếu muốn
+            dgv.BackgroundColor = Color.White;
+            dgv.BorderStyle = BorderStyle.None;
+            dgv.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dgv.GridColor = Color.LightGray;
+            dgv.EnableHeadersVisualStyles = false;
+
+            // ✅ Header style
+            dgv.ColumnHeadersDefaultCellStyle = new DataGridViewCellStyle
+            {
+                BackColor = Color.FromArgb(72, 133, 237),
+                ForeColor = Color.White,
+                Font = new Font("Segoe UI", 11, FontStyle.Bold),
+                Alignment = DataGridViewContentAlignment.MiddleCenter
+            };
+            dgv.ColumnHeadersHeight = 40;
+
+            // ✅ Cell style
+            dgv.DefaultCellStyle = new DataGridViewCellStyle
+            {
+                BackColor = Color.White,
+                ForeColor = Color.Black,
+                Font = new Font("Segoe UI", 10),
+                SelectionBackColor = Color.FromArgb(0, 120, 215),
+                SelectionForeColor = Color.White,
+                Alignment = DataGridViewContentAlignment.MiddleLeft
+            };
+
+            // ✅ Dòng xen kẽ
+            dgv.AlternatingRowsDefaultCellStyle = new DataGridViewCellStyle
+            {
+                BackColor = Color.FromArgb(245, 249, 255)
+            };
+
+            // ✅ Xóa và tạo lại cột
+            dgv.Columns.Clear();
+
+            dgv.Columns.Add(new DataGridViewTextBoxColumn
+            {
+                HeaderText = "ID",
+                Name = "ID",
+                DataPropertyName = "ID"
+            });
+            dgv.Columns.Add(new DataGridViewTextBoxColumn
+            {
+                HeaderText = "ReaderID",
+                Name = "ReaderID",
+                DataPropertyName = "ReaderID"
+            });
+            dgv.Columns.Add(new DataGridViewTextBoxColumn
+            {
+                HeaderText = "UserID",
+                Name = "UserID",
+                DataPropertyName = "UserID"
+            });
+            dgv.Columns.Add(new DataGridViewTextBoxColumn
+            {
+                HeaderText = "ReaderName",
+                Name = "ReaderName",
+                DataPropertyName = "ReaderName"
+            });
+            dgv.Columns.Add(new DataGridViewTextBoxColumn
+            {
+                HeaderText = "UserName",
+                Name = "UserName",
+                DataPropertyName = "UserName"
+            });
+            dgv.Columns.Add(new DataGridViewTextBoxColumn
+            {
+                HeaderText = "DateBorrow",
+                Name = "DateBorrow",
+                DataPropertyName = "DateBorrow"
+            });
+            dgv.Columns.Add(new DataGridViewTextBoxColumn
+            {
+                HeaderText = "DateReturn",
+                Name = "DateReturn",
+                DataPropertyName = "DateReturn"
+            });
+            dgv.Columns.Add(new DataGridViewTextBoxColumn
+            {
+                HeaderText = "StatusName",
+                Name = "StatusName",
+                DataPropertyName = "StatusName"
+            });
+            dgv.CellClick += dgv_CellClick;
+            // ✅ Thêm vào form hoặc container
+            if (!this.Controls.Contains(dgv))
+                this.Controls.Add(dgv);
+        }
+<<<<<<< HEAD
+=======
+=======
+
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private void LoadData()
         {
             dgv.DataSource = null;
@@ -43,6 +186,15 @@ namespace LibrarySystem.FormControl
             cbStatus.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             cbStatus.AutoCompleteSource = AutoCompleteSource.ListItems;
         }
+<<<<<<< HEAD
+<<<<<<< HEAD
+    
+=======
+<<<<<<< HEAD
+    
+=======
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private void BeautyDGV()
         {
             // Không cho người dùng chỉnh cột
@@ -71,6 +223,11 @@ namespace LibrarySystem.FormControl
             // Canh lề trái cho cell
             dgv.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleLeft;
         }
+<<<<<<< HEAD
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         private void ResetForm()
         {
 
@@ -117,7 +274,19 @@ namespace LibrarySystem.FormControl
         {
             LoadData();
             LoadComboboxs();
+<<<<<<< HEAD
+<<<<<<< HEAD
+            InitDataGridView();
+=======
+<<<<<<< HEAD
+            InitDataGridView();
+=======
             BeautyDGV();
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+            BeautyDGV();
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
         }
 
         private void btUpdate_Click(object sender, EventArgs e)

@@ -7,12 +7,12 @@ namespace BusinessLayer
     public class UserService
     {
         private readonly UserRepository _repo = new UserRepository();
-        public bool Login(string username, string password)
+        public UserDTO Authenticate(string username, string password)
         {
-            var user = _repo.GetUserByUsername(username);
-            if (user == null) return false;
+            var user = _repo.Authenticate(username);
+            if (user == null) return null;
             string hashedInput = HashPasswordHelper.HashPassword(password);
-            return user.Password == hashedInput;
+            return user.Password == hashedInput ? user : null;
         }
         public bool Register(UserDTO user)
         {

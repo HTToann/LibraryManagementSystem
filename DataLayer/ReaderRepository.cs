@@ -153,5 +153,52 @@ namespace DataLayer
             }
             return null;
         }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+        public ReaderDTO FindByGmailOrPhone(string gmail, string phone)
+        {
+            using (SqlConnection conn = new SqlConnection(DbHelper.ConnectionString))
+            {
+                string query = @"
+            SELECT TOP 1 *
+            FROM Reader
+            WHERE (@Gmail IS NULL OR gmail = @Gmail)
+               OR (@Phone IS NULL OR phone = @Phone)";
+
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@Gmail", string.IsNullOrEmpty(gmail) ? (object)DBNull.Value : gmail);
+                cmd.Parameters.AddWithValue("@Phone", string.IsNullOrEmpty(phone) ? (object)DBNull.Value : phone);
+
+                conn.Open();
+                var reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    return new ReaderDTO
+                    {
+                        ReaderID = (int)reader["readerID"],
+                        FirstName = reader["firstName"].ToString(),
+                        LastName = reader["lastName"].ToString(),
+                        Gender = reader["gender"].ToString(),
+                        DateOfBirth = Convert.ToDateTime(reader["dateOfBirth"]),
+                        Phone = reader["phone"].ToString(),
+                        Gmail = reader["gmail"].ToString(),
+                        Address = reader["address"].ToString(),
+
+                    };
+                }
+            }
+            return null;
+        }
+
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
     }
 }

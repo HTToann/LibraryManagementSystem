@@ -135,5 +135,33 @@ namespace DataLayer
             }
             return statuses;
         }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+        public int InsertAndGetId(HistoryBorrowDTO dto)
+        {
+            using (SqlConnection conn = new SqlConnection(DbHelper.ConnectionString))
+            {
+                string query = @"INSERT INTO HistoryBorrow (DetailBorrowReturnBookID, StatusID, BookReturnDate)
+                                 OUTPUT INSERTED.ID
+                                 VALUES (@DetailID, @StatusID, @ReturnDate)";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@DetailID", dto.DetailBorrowReturnBookID);
+                cmd.Parameters.AddWithValue("@StatusID", dto.StatusID);
+                cmd.Parameters.AddWithValue("@ReturnDate", dto.BookReturnDate);
+
+                conn.Open();
+                return (int)cmd.ExecuteScalar();
+            }
+        }
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 747003c6c0ee49c49cb277fd7729b53b13e0a33a
+>>>>>>> b30819f7ac3061b7d1b3febe7dfa3e4298670cc2
+=======
+>>>>>>> 423147175579f23a06d331c889fa94af793ae1c4
     }
 }
